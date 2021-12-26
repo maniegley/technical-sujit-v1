@@ -17,21 +17,20 @@
   
         
       
-                    <div class="row">
+                    <div class="row row-item">
                         <div class="col-sm-7">
-                            <div class="well">
+                            <div class="well1">
                                 <a href="https://youtu.be/JW8wTpFo22I">
-                                    <img src="images/thumbnail1.jpeg" class="" height="300" width="300" alt="Avatar">
+                                    <img src="images/thumbnail1.jpeg" class="" height="200" width="300" alt="Avatar">
                                 </a>
                                 <p><strong>Uploded :</strong> 20 December 2021</p>
                                 <a href="https://youtu.be/JW8wTpFo22I"><button class="btn btn-primary">Watch Now</button></a>
                             </div>
                         </div>
                         <div class="col-sm-5">
-                            <div class="well">
-                                <p><a href="https://youtu.be/JW8wTpFo22I"><span class="glyphicon glyphicon-hand-right"> </span><u><strong> slow motion fast motion video kaise banaye | slow fast video editing tutorial | slow mo video editor</strong></u></a></br>
-                                Is video mein maine bataya hai ki....slow motion fast motion video kaise banaye | slow fast video editing tutorial | slow mo video editing
-                                  
+                            <div class="well1">
+                                <p><a href="https://youtu.be/JW8wTpFo22I"><span class="glyphicon glyphicon-hand-right"> </span><u><strong> slow motion fast motion video kaise banaye | slow fast video editing tutorial | slow mo video editor</strong></u></a></p>
+                                <p style="color:white;">Is video mein maine bataya hai ki....slow motion fast motion video kaise banaye | slow fast video editing tutorial | slow mo video editing 
                                 </p>
                                 <p><strong>Uploded :</strong> 20 December 2021</p>
                                 <a href="https://youtu.be/JW8wTpFo22I"><button class="btn btn-primary">Watch Now</button></a>
@@ -39,41 +38,41 @@
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div class="row row-item">
                         <div class="col-sm-7">
-                            <div class="well">
+                            <div class="well1">
                                 <a href="https://youtu.be/5y0QslxMvOc">
-                                    <img src="images/thumbnail2.jpeg" class="" height="300" width="300" alt="Avatar">
+                                    <img src="images/thumbnail2.jpeg" class="" height="200" width="300" alt="Avatar">
                                 </a>
                                 <p><strong>Uploded :</strong> 16 December 2021</p>
                                 <a href="https://youtu.be/5y0QslxMvOc"><button class="btn btn-primary">Watch Now</button></a>
                             </div>
                         </div>
                         <div class="col-sm-5">
-                            <div class="well">
-                                <p><a href="https://youtu.be/5y0QslxMvOc"><span class="glyphicon glyphicon-hand-right"> </span><u><strong> introducing my love of my life reel | introducing my love of my life reels video kaise banaye</strong></u></a></br>
-                                    Is video mein maine bataya hai ki..introducing my love of my life reel | introducing my love of my life reels video kaise banaye 
+                            <div class="well1">
+                                <p><a href="https://youtu.be/5y0QslxMvOc"><span class="glyphicon glyphicon-hand-right"> </span><u><strong> introducing my love of my life reel | introducing my love of my life reels video kaise banaye</strong></u></a></p>
+                                <p style="color:white;">Is video mein maine bataya hai ki..introducing my love of my life reel | introducing my love of my life reels video kaise banaye 
                                 </p>
                                 <p><strong>Uploded :</strong> 16 December 2021</p>
                                 <a href="https://youtu.be/5y0QslxMvOc"><button class="btn btn-primary">Watch Now</button></a>
                             </div>
+                     
                         </div>
                     </div>
-
-                    <div class="row">
+                    <div class="row row-item">
                         <div class="col-sm-7">
-                            <div class="well">
+                            <div class="well1">
                                 <a href="https://youtu.be/QGm5h_MO3pI">
-                                    <img src="images/thumbnail3.jpeg" class="" height="300" width="300" alt="Avatar">
+                                    <img src="images/thumbnail3.jpeg" class="" height="200" width="300" alt="Avatar">
                                 </a>
                                 <p><strong>Uploded :</strong> 14 December 2021</p>
                                 <a href="https://youtu.be/QGm5h_MO3pI"><button class="btn btn-primary">Watch Now</button></a>
                             </div>
                         </div>
                         <div class="col-sm-5">
-                            <div class="well">
-                                <p><a href="https://youtu.be/QGm5h_MO3pI"><span class="glyphicon glyphicon-hand-right"> </span><u><strong> instagram reels name art video editing | chand wala mukhda name art video editing | reels new trend</strong></u></a></br>
-                                Is video mein maine bataya hai ki....instagram reels name art video editing | chand wala mukhda name art video editing | reels new trend  
+                            <div class="well1">
+                                <p><a href="https://youtu.be/QGm5h_MO3pI"><span class="glyphicon glyphicon-hand-right"> </span><u><strong> instagram reels name art video editing | chand wala mukhda name art video editing | reels new trend</strong></u></a></p>
+                                <p style="color:white;">Is video mein maine bataya hai ki....instagram reels name art video editing | chand wala mukhda name art video editing | reels new trend  
                                 </p>
                                 <p><strong>Uploded :</strong> 14 December 2021</p>
                                 <a href="https://youtu.be/QGm5h_MO3pI"><button class="btn btn-primary">Watch Now</button></a>
@@ -81,20 +80,20 @@
                         </div>
                     </div>
 
-                    <div class="row" id="some">
+                    <div class="row row-item" id="some">
                         <div class="col-sm-7">
-                            <div class="well">
+                            <div class="well1">
                                 <a href="https://youtu.be/lGjBLviuieo">
-                                    <img src="images/thumbnail4.jpeg" class="" height="300" width="300" alt="Avatar">
+                                    <img src="images/thumbnail4.jpeg" class="" height="200" width="300" alt="Avatar">
                                 </a>
                                 <p><strong>Uploded :</strong> 11 December 2021</p>
                                 <a href="https://youtu.be/lGjBLviuieo"><button class="btn btn-primary">Watch Now</button></a>
                             </div>
                         </div>
                         <div class="col-sm-5">
-                            <div class="well">
-                                <p><a href="https://youtu.be/lGjBLviuieo"><span class="glyphicon glyphicon-hand-right"> </span><u><strong> how to create a photo scrolling whatsapp status | scrolling whatsapp status editing | Photo status editing</strong></u></a></br>    
-                                Is video mein maine bataya hai ki....
+                            <div class="well1">
+                                <p><a href="https://youtu.be/lGjBLviuieo"><span class="glyphicon glyphicon-hand-right"> </span><u><strong> how to create a photo scrolling whatsapp status | scrolling whatsapp status editing | Photo status editing</strong></u></a></p>    
+                                <p style="color:white;">Is video mein maine bataya hai ki....
                                     how to create a photo scrolling whatsapp status | 
                                     scrolling whatsapp status editing | Photo status editing
                                 </p>
@@ -104,20 +103,20 @@
                         </div>
                     </div>
 
-                    <div class="row" id="some">
+                    <div class="row row-item" id="some">
                         <div class="col-sm-7">
-                            <div class="well">
+                            <div class="well1">
                                 <a href="https://youtu.be/wxq8w3x7BjQ">
-                                    <img src="images/thumbnail5.jpeg" class="" height="300" width="300" alt="Avatar">
+                                    <img src="images/thumbnail5.jpeg" class="" height="200" width="300" alt="Avatar">
                                 </a>
                                 <p><strong>Uploded :</strong> 11 December 2021</p>
                                 <a href="https://youtu.be/wxq8w3x7BjQ"><button class="btn btn-primary">Watch Now</button></a>
                             </div>
                         </div>
                         <div class="col-sm-5">
-                            <div class="well">
-                                <p><a href="https://youtu.be/wxq8w3x7BjQ"><span class="glyphicon glyphicon-hand-right"> </span><u><strong> Reels viral sky running video editing | Cloud moving kaise banaye | Cloud moving video tutorial</strong></u></a></br>    
-                                    Is video mein maine bataya hai ki....
+                            <div class="well1">
+                                <p><a href="https://youtu.be/wxq8w3x7BjQ"><span class="glyphicon glyphicon-hand-right"> </span><u><strong> Reels viral sky running video editing | Cloud moving kaise banaye | Cloud moving video tutorial</strong></u></a></p>    
+                                    <p style="color:white;">Is video mein maine bataya hai ki....
                                     Reels viral sky running video editing | Cloud moving kaise banaye | 
                                     Cloud moving video editing tutorial
                                 </p>
@@ -127,20 +126,20 @@
                         </div>
                     </div>
 
-                    <div class="row" id="some">
+                    <div class="row row-item" id="some">
                         <div class="col-sm-7">
-                            <div class="well">
+                            <div class="well1">
                                 <a href="https://youtu.be/SD6y3d_aO5U">
-                                    <img src="images/thumbnail6.jpeg" class="" height="300" width="300" alt="Avatar">
+                                    <img src="images/thumbnail6.jpeg" class="" height="200" width="300" alt="Avatar">
                                 </a>
                                 <p><strong>Uploded :</strong> 11 December 2021</p>
                                 <a href="https://youtu.be/SD6y3d_aO5U"><button class="btn btn-primary">Watch Now</button></a>
                             </div>
                         </div>
                         <div class="col-sm-5">
-                            <div class="well">
-                                <p><a href="https://youtu.be/SD6y3d_aO5U"><span class="glyphicon glyphicon-hand-right"> </span><u><strong> How To Make Tweets Video For Instagram Reels | Fake Tweet Video Editing | Reels New Trend</strong></u></a></br>    
-                                Is video mein maine bataya hai ki....
+                            <div class="well1">
+                                <p><a href="https://youtu.be/SD6y3d_aO5U"><span class="glyphicon glyphicon-hand-right"> </span><u><strong> How To Make Tweets Video For Instagram Reels | Fake Tweet Video Editing | Reels New Trend</strong></u></a></p>    
+                                <p style="color:white;">Is video mein maine bataya hai ki....
                                                How To Make Tweets Video For Instagram Reels | Fake Tweet Video Editing | Reels New Trend              
                                 </p>
                                 <p><strong>Uploded :</strong> 11 December 2021</p>

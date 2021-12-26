@@ -30,6 +30,14 @@ body {
 .glyphicon{
     color: red;
 }
+
+.row-item{
+    margin: 50px;
+    padding: 10px;
+    background: #466368;
+    background: linear-gradient(#648880, #293f50);
+    border-radius: 6px;
+}
 a,
 a:hover,
 a:focus,
