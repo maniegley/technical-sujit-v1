@@ -18,10 +18,10 @@
 
    $ret = pg_query($db, $sql);
    if(!$ret) {
-      echo "Records not created";
+      echo pg_last_error($db);
    } else {
       echo "Records created successfully\n";
-      echo "httgh://mbj.com"
+      echo "httgh://mbj.com";
    }
-   // pg_close($db);
+   pg_close($db);
 ?>
