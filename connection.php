@@ -17,11 +17,11 @@
    $sql ="INSERT INTO resources (title,description,url,paging) VALUES ('Manish', 'jhghjghghb', 'httgh://mbj.com', 2);";
 
    $ret = pg_query($db, $sql);
-   // if(!$ret) {
-   //    echo pg_last_error($db);
-   // } else {
-   //    echo "Records created successfully\n";
-   //    echo "httgh://mbj.com"
-   // }
+   if(!$ret) {
+      echo pg_last_error($db);
+   } else {
+      echo "Records created successfully\n";
+      echo "httgh://mbj.com"
+   }
    // pg_close($db);
 ?>
