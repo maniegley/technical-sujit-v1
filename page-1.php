@@ -17,135 +17,139 @@
   
         
       
-                    <div class="row">
+                    <div class="row row-item">
                         <div class="col-sm-7">
-                            <div class="well">
+                            <div class="well1">
                                 <a href="https://youtu.be/JYHDvrn_RAg">
-                                    <img src="images/thumbnail7.jpeg" class="" height="300" width="300" alt="Avatar">
+                                    <img src="images/thumbnail7.jpeg" class="" height="200" width="300" alt="Avatar">
                                 </a>
                                 <p><strong>Uploded :</strong> 20 December 2021</p>
                                 <a href="https://youtu.be/JYHDvrn_RAg"><button class="btn btn-primary">Watch Now</button></a>
                             </div>
                         </div>
                         <div class="col-sm-5">
-                            <div class="well">
-                                <p><a href="https://youtu.be/JYHDvrn_RAg"><span class="glyphicon glyphicon-hand-right"> </span><u><strong> Instagram reels viral train video editing | train video editing reels | instagram reels new trend</strong></u></a></br>
-                                    Is video mein maine bataya hai ki.... 
+                            <div class="well1">
+                                <p><a href="https://youtu.be/JYHDvrn_RAg"><span class="glyphicon glyphicon-hand-right"> </span><u><strong> Instagram reels viral train video editing | train video editing reels | instagram reels new trend</strong></u></a></p>
+                                <p class="video-desc">Is video mein maine bataya hai ki.... 
                                     Instagram reels viral train video editing | train video editing reels | instagram reels new trend
-                                    👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇
-                                  
                                 </p>
                                 <p><strong>Uploded :</strong> 20 December 2021</p>
+                                <p class="video-desc">👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇</p>
                                 <a href="https://youtu.be/JYHDvrn_RAg"><button class="btn btn-primary">Watch Now</button></a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div class="row row-item">
                         <div class="col-sm-7">
-                            <div class="well">
+                            <div class="well1">
                                 <a href="https://youtu.be/15YWOplJNds">
-                                    <img src="images/thumbnail8.jpeg" class="" height="300" width="300" alt="Avatar">
+                                    <img src="images/thumbnail8.jpeg" class="" height="200" width="300" alt="Avatar">
                                 </a>
                                 <p><strong>Uploded :</strong> 16 December 2021</p>
                                 <a href="https://youtu.be/15YWOplJNds"><button class="btn btn-primary">Watch Now</button></a>
                             </div>
                         </div>
                         <div class="col-sm-5">
-                            <div class="well">
-                                <p><a href="https://youtu.be/15YWOplJNds"><span class="glyphicon glyphicon-hand-right"> </span><u><strong> 4k HD status video editing | trending bursh status editing | bursh status video kaise banaye</strong></u></a></br>
-                                Is video mein maine bataya hai ki....
+                            <div class="well1">
+                                <p><a href="https://youtu.be/15YWOplJNds"><span class="glyphicon glyphicon-hand-right"> </span><u><strong> 4k HD status video editing | trending bursh status editing | bursh status video kaise banaye</strong></u></a></p>
+                                <p class="video-desc">Is video mein maine bataya hai ki....
                                 4k status video editing | trending bursh status editing | bursh status video editing        
                                 </p>
                                 <p><strong>Uploded :</strong> 16 December 2021</p>
+                                <p class="video-desc">👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇</p>
                                 <a href="https://youtu.be/15YWOplJNds"><button class="btn btn-primary">Watch Now</button></a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div class="row row-item">
                         <div class="col-sm-7">
-                            <div class="well">
+                            <div class="well1">
                                 <a href="https://youtu.be/IHAR466dal0">
-                                    <img src="images/thumbnail9.jpeg" class="" height="300" width="300" alt="Avatar">
+                                    <img src="images/thumbnail9.jpeg" class="" height="200" width="300" alt="Avatar">
                                 </a>
                                 <p><strong>Uploded :</strong> 14 December 2021</p>
                                 <a href="https://youtu.be/IHAR466dal0"><button class="btn btn-primary">Watch Now</button></a>
                             </div>
                         </div>
                         <div class="col-sm-5">
-                            <div class="well">
-                                <p><a href="https://youtu.be/IHAR466dal0"><span class="glyphicon glyphicon-hand-right"> </span><u><strong> how to change video background without green screen | video ka background kaise change kare</strong></u></a></br>
-                                Is video mein maine bataya hai ki....
+                            <div class="well1">
+                                <p><a href="https://youtu.be/IHAR466dal0"><span class="glyphicon glyphicon-hand-right"> </span><u><strong> how to change video background without green screen | video ka background kaise change kare</strong></u></a></p>
+                                <p class="video-desc">Is video mein maine bataya hai ki....
                                 how to change video background without green screen | video ka background kaise change kare  
                                 </p>
                                 <p><strong>Uploded :</strong> 14 December 2021</p>
+                                <p class="video-desc">👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇</p>
                                 <a href="https://youtu.be/IHAR466dal0"><button class="btn btn-primary">Watch Now</button></a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="row" id="some">
+                    <div class="row row-item" id="some">
                         <div class="col-sm-7">
-                            <div class="well">
+                            <div class="well1">
                                 <a href="https://youtu.be/3qJOnoU1LeE">
-                                    <img src="images/thumbnail10.jpeg" class="" height="300" width="300" alt="Avatar">
+                                    <img src="images/thumbnail10.jpeg" class="" height="200" width="300" alt="Avatar">
                                 </a>
                                 <p><strong>Uploded :</strong> 11 December 2021</p>
                                 <a href="https://youtu.be/3qJOnoU1LeE"><button class="btn btn-primary">Watch Now</button></a>
                             </div>
                         </div>
                         <div class="col-sm-5">
-                            <div class="well">
-                                <p><a href="https://youtu.be/3qJOnoU1LeE"><span class="glyphicon glyphicon-hand-right"> </span><u><strong> how to make trending name heart status video | instagram reels viral name art video editing</strong></u></a></br>    
-                                Is video mein maine bataya hai ki....
+                            <div class="well1">
+                                <p><a href="https://youtu.be/3qJOnoU1LeE"><span class="glyphicon glyphicon-hand-right"> </span><u><strong> how to make trending name heart status video | instagram reels viral name art video editing</strong></u></a></p>    
+                                <p class="video-desc">Is video mein maine bataya hai ki....
                                 how to make trending name heart status video | instagram reels viral name art video editing    
                                 </p>
                                 <p><strong>Uploded :</strong> 11 December 2021</p>
+                                <p class="video-desc">👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇</p>
                                 <a href="https://youtu.be/3qJOnoU1LeE"><button class="btn btn-primary">Watch Now</button></a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="row" id="some">
+                    <div class="row row-item" id="some">
                         <div class="col-sm-7">
-                            <div class="well">
+                            <div class="well1">
                                 <a href="https://youtu.be/kGftEd7saSI">
-                                    <img src="images/thumbnail11.jpeg" class="" height="300" width="300" alt="Avatar">
+                                    <img src="images/thumbnail11.jpeg" class="" height="200" width="300" alt="Avatar">
                                 </a>
                                 <p><strong>Uploded :</strong> 11 December 2021</p>
                                 <a href="https://youtu.be/kGftEd7saSI"><button class="btn btn-primary">Watch Now</button></a>
                             </div>
                         </div>
                         <div class="col-sm-5">
-                            <div class="well">
-                                <p><a href="https://youtu.be/kGftEd7saSI"><span class="glyphicon glyphicon-hand-right"> </span><u><strong> reels viral name art video editing tutorial | How to make couple name art video | name art editing</strong></u></a></br>    
-                                Is video mein maine bataya hai ki....
+                            <div class="well1">
+                                <p><a href="https://youtu.be/kGftEd7saSI"><span class="glyphicon glyphicon-hand-right"> </span><u><strong> reels viral name art video editing tutorial | How to make couple name art video | name art editing</strong></u></a></p>    
+                                <p class="video-desc">Is video mein maine bataya hai ki....
                                 reels viral name art video editing tutorial | How to make couple name art video | name art status editing  
                                 </p>
                                 <p><strong>Uploded :</strong> 11 December 2021</p>
+                                <p class="video-desc">👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇</p>
                                 <a href="https://youtu.be/kGftEd7saSI"><button class="btn btn-primary">Watch Now</button></a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="row" id="some">
+                    <div class="row row-item" id="some">
                         <div class="col-sm-7">
-                            <div class="well">
+                            <div class="well1">
                                 <a href="https://youtu.be/rBC0gXqkatc">
-                                    <img src="images/thumbnail12.jpeg" class="" height="300" width="300" alt="Avatar">
+                                    <img src="images/thumbnail12.jpeg" class="" height="200" width="300" alt="Avatar">
                                 </a>
                                 <p><strong>Uploded :</strong> 11 December 2021</p>
                                 <a href="https://youtu.be/rBC0gXqkatc"><button class="btn btn-primary">Watch Now</button></a>
                             </div>
                         </div>
                         <div class="col-sm-5">
-                            <div class="well">
-                                <p><a href="https://youtu.be/rBC0gXqkatc"><span class="glyphicon glyphicon-hand-right"> </span><u><strong> Instagram reels viral name art video editing | Reels viral name art video tutorial | Reels new trend</strong></u></a></br>    
-                                    Is video mein maine bataya hai ki....
+                            <div class="well1">
+                                <p><a href="https://youtu.be/rBC0gXqkatc"><span class="glyphicon glyphicon-hand-right"> </span><u><strong> Instagram reels viral name art video editing | Reels viral name art video tutorial | Reels new trend</strong></u></a></p>    
+                                <p class="video-desc">Is video mein maine bataya hai ki....
                                     Instagram reels viral name art video editing | Reels viral name art video tutorial | Reels new trend                 
                                 </p>
                                 <p><strong>Uploded :</strong> 11 December 2021</p>
+                                <p class="video-desc">👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇</p>
                                 <a href="https://youtu.be/rBC0gXqkatc"><button class="btn btn-primary">Watch Now</button></a>
                             </div>
                         </div>

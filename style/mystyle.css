@@ -38,6 +38,10 @@ body {
     background: linear-gradient(#648880, #293f50);
     border-radius: 6px;
 }
+
+.video-desc{
+    color: white;
+}
 a,
 a:hover,
 a:focus,
