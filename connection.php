@@ -18,7 +18,7 @@
 
    $ret = pg_query($db, $sql);
    if(!$ret) {
-      echo pg_last_error($db);
+      echo "Records not created";
    } else {
       echo "Records created successfully\n";
       echo "httgh://mbj.com"
