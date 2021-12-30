@@ -14,10 +14,7 @@
       echo "Opened database successfully\n";
    }
 
-   $sql =<<<EOF
-      INSERT INTO resources (title,description,url,paging)
-      VALUES ('Manish', 'jhghjghghb', 'httgh://mbj.com', 2);
-EOF;
+   $sql ="INSERT INTO resources (title,description,url,paging) VALUES ('Manish', 'jhghjghghb', 'httgh://mbj.com', 2);"";
 
    $ret = pg_query($db, $sql);
    if(!$ret) {
