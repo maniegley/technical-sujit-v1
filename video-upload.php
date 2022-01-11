@@ -4,7 +4,7 @@
 <html>
     <head>
         <title>Upload Video</title>
-        <link rel="stylesheet" type="text/css" href="style/mystyle.css">
+        <link rel="stylesheet" type="text/css" href="style/video-upload.css">
         <style>
             * {
                 margin: 0px;
