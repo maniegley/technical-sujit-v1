@@ -93,6 +93,7 @@
                             array_push($success, "Video uploaded successfully.");
                         } else {
                             $delete_query = "DELETE FROM t_vid_link WHERE vid_url='$_url';";
+                            $result = pg_query($db, $delete_query);
                             array_push($errors,"Sorry, there was an error uploading your file.");
                         }
                     }
