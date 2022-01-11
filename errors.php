@@ -5,3 +5,10 @@
   	<?php endforeach ?>
   </div>
 <?php  endif ?>
+<?php  if (count($success) > 0) : ?>
+  <div class="success">
+  	<?php foreach ($success as $sucess) : ?>
+  	  <p><?php echo $sucess ?></p>
+  	<?php endforeach ?>
+  </div>
+<?php  endif ?>
