@@ -101,7 +101,7 @@
                             while($row = pg_fetch_assoc($result)){
                         ?>
                         <!-- <img src="<?php echo $row['vid_img']; ?>" alt="Paris" width="400" height="300"> -->
-                        <img src="images/thumbnail1.jpeg" alt="Paris" width="400" height="300">
+                        <img src="<?php echo $row['vid_img']; ?>" alt="Paris" width="400" height="300">
                         <p style="color: rgb(100, 86, 86);"><strong>Uploded On  </strong><?php echo date_format(date_create($row['vid_post_date']), "d F Y"); ?></p>
 
                         <?php }
