@@ -5,16 +5,15 @@
     $url = "";
     $errors = array(); 
     $success = array(); 
-
-// connect to the database
-//$db = mysqli_connect('localhost', 'root', '', 'barber');
-
-// video uploading
+    // connect to the database
+    //$db = mysqli_connect('localhost', 'root', '', 'barber');
+    // video uploading
     if (isset($_POST['add-video-link'])) {
         $title = $_POST['title'];
         $description = $_POST['description'];
         $url = $_POST['url'];
         $uploadOk = 1;
+        //Checking required field to be empty
         if (empty($title)) {
             array_push($errors, "Title is required");
         }
@@ -35,9 +34,7 @@
         $target_dir = "images/";
         //echo gettype(basename( $_FILES["fileToUpload"]["name"]));
         $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
-        
         $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
-
         // Check if image file is a actual image or fake image
         if(isset($_POST["submit"])) {
             $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
@@ -74,36 +71,40 @@
                 $uploadOk = 0;
             }
         }
-
-        if($uploadOk==1){
-            // Check if $uploadOk is set to 0 by an error
-            if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-                echo "The file ". htmlspecialchars( basename( $_FILES["fileToUpload"]["name"])). " has been uploaded.";
-                $img = $target_file;
+        $img = $target_file;
+        $sub_admin = "admin";
+        if (count($errors) == 0) {
+            $resource_query = "INSERT INTO t_vid_link (vid_title,vid_description,vid_url,vid_img,vid_uploaded_by) VALUES ('$title', '$description', '$url', '$img','$sub_admin');";
+            //echo $resource_query;
+            include('connection.php');
+            if(!$db) {
+                array_push($errors, "Error : Unable to make connection!\n");
             } else {
-                    array_push($errors,"Sorry, there was an error uploading your file.");
+                //echo "Opened database successfully\n";
+                $result = pg_query($db, $resource_query);
+                if(!$result) {
+                    array_push($errors, "Something went wrong! Please try again.");
+                } else {
+                    if($uploadOk==1){
+                        // Check if $uploadOk is set to 0 by an error
+                        if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
+                            //echo "The file ". htmlspecialchars( basename( $_FILES["fileToUpload"]["name"])). " has been uploaded.";
+                            $img = $target_file;
+                            array_push($success, "Video uploaded successfully.");
+                        } else {
+                            $delete_query = "DELETE FROM t_vid_link WHERE vid_url='$_url';";
+                            array_push($errors,"Sorry, there was an error uploading your file.");
+                        }
+                    }
+                    
+
+
+                    //header('location: successfull-trasaction.php');
                 }
             }
-
-
-$sub_admin = "admin";
-if (count($errors) == 0) {
-  $resource_query = "INSERT INTO t_vid_link (vid_title,vid_description,vid_url,vid_img,vid_uploaded_by) VALUES ('$title', '$description', '$url', '$img','$sub_admin');";
-  echo $resource_query;
-  include('connection.php');
-    if(!$db) {
-      array_push($errors, "Error : Unable to make connection!\n");
-    } else {
-        echo "Opened database successfully\n";
-    }
-    $result = pg_query($db, $resource_query);
+            
         //echo $resource_query;
-        if(!$result) {
-          array_push($errors, "Something went wrong! Please try again.");
-            } else {
-                array_push($success, "Video uploaded successfully.");
-                header('location: successfull-trasaction.php');
-            }
-}
-}
+        
+        }
+    }
 ?>
