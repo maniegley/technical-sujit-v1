@@ -1,17 +1,17 @@
-<footer class="ct-footer">
-  <div class="container">
-    <form name="contentForm" enctype="multipart/form-data" method="post" action="">
+<footer class="ct-footer1">
+  <!-- <div class="container"> -->
+    <!-- <form name="contentForm" enctype="multipart/form-data" method="post" action="">
       <div class="ct-footer-pre text-center-lg">
         <div class="inner">
           <span>Join our Community(Technical Sujit) to receive updates</span>
         </div>
         <div class="inner">
-          <div class="form-group">
+          <div class="input-group">
             <input name="formfields[nl_email]" id="nl_email" class="validate[required]" placeholder="Enter your email address" type="text" value=""> <label for="nl_email" class="sr-only">Email Address</label> <button type="submit" class="btn btn-motive">Join</button>
           </div>
         </div>
       </div>
-    </form>
+    </form> -->
     <!-- <ul class="ct-footer-list text-center-sm">
       <li>
         <h2 class="ct-footer-list-header">Learn More</h2>
@@ -153,7 +153,7 @@
         </div>
       </div>
     </div>-->
-  </div> 
+  <!-- </div>  -->
   <div class="ct-footer-post">
     <div class="container">
       <div class="inner-left">
@@ -170,8 +170,8 @@
         </ul>
       </div>
       <div class="inner-right">
-        <p>Copyright © 2021 TechnicalSujit.&nbsp;<a href="#">Privacy Policy</a></p>
-        <p><a class="ct-u-motive-color" href="" target="_blank">Web Design</a> by CloudUp on <a href="#" target="_blank">Solodev CMS</a></p>
+        <p>Copyright © 2021 <span class="logo2">TechnicalSujit.&nbsp; </span><a href="#">Privacy Policy</a></p>
+        <p><a class="ct-u-motive-color" href="" target="_blank">Web Design</a> by <a href="#" target="_blank"><span class="logo1">Red Moon Tech</span></a></p>
       </div>
     </div>
   </div>
