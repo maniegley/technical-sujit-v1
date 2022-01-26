@@ -3,6 +3,7 @@
     $description = "";
     $target_dir = "";
     $url = "";
+    $media_url = "";
     $errors = array(); 
     $success = array(); 
     // connect to the database
@@ -12,6 +13,7 @@
         $title = $_POST['title'];
         $description = $_POST['description'];
         $url = $_POST['url'];
+        $media_url = $_POST['media-url'];
         $uploadOk = 1;
         //Checking required field to be empty
         if (empty($title)) {
@@ -24,6 +26,10 @@
 
         if (empty($url)) {
             array_push($errors, "URL is required");
+        }
+
+        if (empty($media_url)) {
+            array_push($errors, "Media Fire URL is required");
         }
 
         if (empty(basename($_FILES["fileToUpload"]["name"]))) {
@@ -74,15 +80,18 @@
         $img = $target_file;
         $sub_admin = "admin";
         if (count($errors) == 0) {
-            $resource_query = "INSERT INTO t_vid_link (vid_title,vid_description,vid_url,vid_img,vid_uploaded_by) VALUES ('$title', '$description', '$url', '$img','$sub_admin');";
+            $video = "INSERT INTO t_vid_link (vid_title,vid_description,vid_url,vid_img,vid_uploaded_by) VALUES ('$title', '$description', '$url', '$img','$sub_admin');";
+            $resource_query = "INSERT INTO t_media_fire_link (media_title,media_description,media_url,media_uploaded_by,media_thumbnail_img) VALUES ('$title', '$description', '$media_url', '$sub_admin', '$img');";
+
             //echo $resource_query;
             include('connection.php');
             if(!$db) {
                 array_push($errors, "Error : Unable to make connection!\n");
             } else {
                 //echo "Opened database successfully\n";
-                $result = pg_query($db, $resource_query);
-                if(!$result) {
+                $result = pg_query($db, $video);
+                $resource_result = pg_query($db, $resource_query);
+                if(!$result && !$resource_result) {
                     array_push($errors, "Something went wrong! Please try again.");
                 } else {
                     if($uploadOk==1){
@@ -92,8 +101,10 @@
                             $img = $target_file;
                             array_push($success, "Video uploaded successfully.");
                         } else {
-                            $delete_query = "DELETE FROM t_vid_link WHERE vid_url='$_url';";
+                            $delete_query = "DELETE FROM t_vid_link WHERE vid_url='$url';";
+                            $delete_query1 = "DELETE FROM t_media_fire_link WHERE media_url='$media_url';";
                             $result = pg_query($db, $delete_query);
+                            $result1 = pg_query($db, $delete_query1);
                             array_push($errors,"Sorry, there was an error uploading your file.");
                         }
                     }

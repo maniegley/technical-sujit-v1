@@ -33,8 +33,12 @@
                 <input type="text" class="form-control" id="description" name="description" value="<?php echo $description;?>">
             </div>
             <div class="input-group">
-                <label for="pwd">URL</label>
+                <label for="pwd">Youtube URL</label>
                 <input type="text" class="form-control" id="url" name="url" value="<?php echo $url;?>">
+            </div>
+            <div class="input-group">
+                <label for="pwd">Mediafire URL</label>
+                <input type="text" class="form-control" id="media-url" name="media-url" value="<?php echo $media_url;?>">
             </div>
             <div class="input-group">
                 <label for="pwd">Choose Thumbnail</label>
