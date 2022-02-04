@@ -16,7 +16,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Technical Sujit</title>
+        <title>Technical Sujit | Home</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -25,13 +25,19 @@
         <script src="bootstrap-3.3.7\dist\js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="style/mystyle.css">
         <link rel="icon" href="images/logo1.jpeg" sizes="32x32" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
 
         <?php include('header.php'); ?>
-        <div class="container text-center row-item" style="margin-top:5px;">    
+        
+        <div class="container text-center row-item1" style="margin-top:5px;">  
+            
             <div class="row">
-                <div class="col-sm-offset-1 col-sm-7">
+                <div class="col-sm-8">
+                    <div class="title-wrap">
+                        <h2 class="title">Recent Posts</h2>
+                    </div>
                     <?php
                         while($row = pg_fetch_assoc($result)){
                     ?>
@@ -39,22 +45,32 @@
                         <div class="panel">
                             <div class="panel-body">
                                 <div class="col-sm-5">
-                                    <a href="<?php echo $row['vid_url'] ?>">
-                                        <img src="<?php echo $row['vid_img']; ?>" class="" alt="Avatar">
-                                    </a>
-                                    <p style="color: rgb(100, 86, 86);"><strong>Uploded On </strong><?php echo date_format(date_create($row['vid_post_date']), "d F Y"); ?>
-                                        <a href="<?php echo $row['vid_url'] ?>"><strong>  Watch Now</strong></a>
-                                    </p>
-                                </div>
-                                <div class="col-sm-5">    
-                                    <p>
+                                    <div>
                                         <a href="<?php echo $row['vid_url'] ?>">
-                                            <span class="glyphicon glyphicon-hand-right"> </span>
-                                            <u>
-                                                <strong> <?php echo $row['vid_title']; ?></strong>
-                                            </u>
+                                            <img src="<?php echo $row['vid_img']; ?>" class="" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';" />
                                         </a>
-                                    </p>
+                                    </div>
+                                    
+                                    <!-- <p style="color: rgb(100, 86, 86);"><strong>Uploded On </strong><?php echo date_format(date_create($row['vid_post_date']), "d F Y"); ?>
+                                        <a href="<?php echo $row['vid_url'] ?>"><strong>  Watch Now</strong></a>
+                                    </p> -->
+                                </div>
+                                <div class="col-sm-7"> 
+                                      
+                                    <div class="post-info">
+                                      
+                                            <a href="<?php echo $row['vid_url'] ?>">
+                                                <!-- <span class="glyphicon glyphicon-hand-right"> </span> -->
+                                                <?php echo $row['vid_title']; ?>
+                                            </a>
+                                      
+                                    </div>
+                                    <div class="post-info">
+                                        <p><strong style="font-weight: 1000;">Uploded On </strong><?php echo date_format(date_create($row['vid_post_date']), "d F Y"); ?></p>
+                                    </div>
+                                    <div class="post-info1">
+                                        <p>Sabhi material related to this reels video download karne ke liye uper click kare...</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -79,7 +95,17 @@
                 
 
                 <!-- Right Pannel Start here! -->
-                <div class="col-sm-offset-1 col-sm-3 well">
+                <div class="col-sm-4 well1">
+                    <div class="title-wrap">
+                        <h2 class="title">Follow Us</h2>
+                    </div>
+                    <div class="social_box">
+                    <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+</div>
                     <div class="thumbnail">
                         <p><strong>Most Viewed Video:</strong></p>
                         <iframe width="250" height="200"
