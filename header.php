@@ -20,7 +20,7 @@
                 <li><a href="about.php">About</a></li>
                 <li><a href="#">Privacy & Policy</a></li>
             </ul>
-            <form class="navbar-form navbar-right" role="search">
+            <!-- <form class="navbar-form navbar-right" role="search">
                 <div class="form-group input-group">
                     <input type="text" class="form-control" placeholder="Search..">
                     <span class="input-group-btn">
@@ -29,7 +29,7 @@
                         </button>
                     </span>        
                 </div>
-            </form>
+            </form> -->
             <!-- <ul class="nav navbar-nav navbar-right">
                 <li><a href="#"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
             </ul> -->
@@ -44,7 +44,7 @@
                 <div class="col-sm-12">
                     <div class="panel text-left" style="width:300px; height:50px;">
                         <div class="panel-body">
-                            <img src="upload/logo1.jpeg" style="width:300px; height:50px;">
+                            <img src="upload/logo1.jpeg" style="width:300px; height:90px;">
                         </div>   
                     </div>
                     

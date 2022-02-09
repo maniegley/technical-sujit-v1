@@ -14,6 +14,7 @@
         $description = $_POST['description'];
         $url = $_POST['url'];
         $media_url = $_POST['media-url'];
+        $custom_media_url = str_replace("https://www.mediafire.com/","https://technical-sujit-v1.herokuapp.com/resources.php?get-resource=", $media_url);
         $uploadOk = 1;
         //Checking required field to be empty
         if (empty($title)) {
@@ -80,9 +81,10 @@
         $img = $target_file;
         $sub_admin = "admin";
         if (count($errors) == 0) {
-            $video = "INSERT INTO t_vid_link (vid_title,vid_description,vid_url,vid_img,vid_uploaded_by) VALUES ('$title', '$description', '$url', '$img','$sub_admin');";
+            $video = "INSERT INTO t_vid_link (vid_title,vid_description,vid_url,vid_img,vid_uploaded_by,vid_media_fire_link) VALUES ('$title', '$description', '$url', '$img','$sub_admin','$custom_media_url');";
             $resource_query = "INSERT INTO t_media_fire_link (media_title,media_description,media_url,media_uploaded_by,media_thumbnail_img) VALUES ('$title', '$description', '$media_url', '$sub_admin', '$img');";
-
+            echo $video;
+            echo $resource_query;
             //echo $resource_query;
             include('connection.php');
             if(!$db) {
@@ -117,6 +119,9 @@
             
         //echo $resource_query;
         
+        }
+        else{
+            echo "Something went wrong. Please try again.";
         }
     }
 ?>

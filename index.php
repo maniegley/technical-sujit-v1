@@ -1,13 +1,19 @@
 <?php 
-    $page = 0;
-    
+    if (isset($_GET["page-no"])) {    
+        $page  = $_GET["page-no"];    
+    }    
+    else {    
+        $page=1;    
+    }    
+
+    $per_page_record = 4;
+    $start_from = ($page-1)*$per_page_record;
     include('connection.php');
-    
     if(!$db) {
         echo "Error : Something went wrong. Unable to make connection!\n";
     } else {
         //echo "Opened database successfully\n";
-        $get_video_query = "SELECT * FROM t_vid_link ORDER BY id DESC LIMIT 4";
+        $get_video_query = "SELECT * FROM t_vid_link ORDER BY id DESC OFFSET '$start_from' LIMIT '$per_page_record'";
         //$result = mysqli_query($db, $get_video_query);
         $result = pg_query($db, $get_video_query);
         //$c = 1;
@@ -47,7 +53,8 @@
                                 <div class="col-sm-5">
                                     <div>
                                         <a href="<?php echo $row['vid_url'] ?>">
-                                            <img src="<?php echo $row['vid_img']; ?>" class="" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';" />
+                                            <!-- <img src="<?php echo $row['vid_img']; ?>" class="" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';" /> -->
+                                            <img src="https://drive.google.com/file/d/10lc9L34eexD6RfhffZ3hEJqP2nzWKit4/view?usp=sharing" class="" alt="upload/alternate.jpg"  />
                                         </a>
                                     </div>
                                     
@@ -59,7 +66,7 @@
                                       
                                     <div class="post-info">
                                       
-                                            <a href="<?php echo $row['vid_url'] ?>">
+                                            <a href="<?php echo $row['vid_media_fire_link']; ?>">
                                                 <!-- <span class="glyphicon glyphicon-hand-right"> </span> -->
                                                 <?php echo $row['vid_title']; ?>
                                             </a>
@@ -82,7 +89,7 @@
                         <div class="col-sm-7">
                             <div class="">                   
                                 <ul class="pager">
-                                    <?php if($page==0){?>
+                                    <?php if($page==1){?>
                                         <li><a href="index.php" style="pointer-events: none; cursor: default;">Previous</a></li>
                                         <?php  } else{ ?>
                                         <li><a href="index.php?page-no=<?php echo $page-1;?>">Previous</a></li><?php } ?>
@@ -100,35 +107,90 @@
                         <h2 class="title">Follow Us</h2>
                     </div>
                     <div class="social_box">
-                    <a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>
-<a href="#" class="fa fa-google"></a>
-<a href="#" class="fa fa-linkedin"></a>
-<a href="#" class="fa fa-youtube"></a>
-</div>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-google"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                    </div>
                     <div class="thumbnail">
-                        <p><strong>Most Viewed Video:</strong></p>
+                        <div class="title-wrap">
+                            <h2 class="title">Most View Video</h2>
+                        </div>
+                        <!-- <p><strong>Most Viewed Video:</strong></p> -->
                         <iframe width="250" height="200"
                             src="https://www.youtube.com/embed/NjcRLyrqWv8?autoplay=1&mute=1">
                         </iframe>
                         <!--<img src="images/thumbnail1.jpeg" alt="Paris" width="400" height="300">-->
                         <p><strong>Uploded</strong>
                         Fri. 27 November 2021</p>
-                        <button class="btn btn-primary">Watch</button>
+                        <!-- <button class="btn btn-primary">Watch</button> -->
                     </div>      
 
                     <div class="thumbnail">
-                        <p><strong style="color:green;">Recent Videos:</strong></p>
-
+                        <div class="title-wrap">
+                            <h2 class="title">Popular Post</h2>
+                        </div>
+                        
                         <?php
                             $get_video_query = "SELECT * FROM t_vid_link ORDER BY id DESC LIMIT 4";
                             //$result = mysqli_query($db, $get_video_query);
                             $result = pg_query($db, $get_video_query);
                             while($row = pg_fetch_assoc($result)){
                         ?>
+                        <div class="row">     
+                            <div class="col-sm-12">
+                                <div class="float-parent-element">
+                                    <div class="float-child-element">
+                                        <div class="red">
+                                            <img src="<?php echo $row['vid_img']; ?>" alt="Paris" width="100" height="90">
+                                        </div>
+                                    </div>
+                                    <div class="float-child-element">
+                                        <div class="yellow">
+                                        <a href="<?php echo $row['vid_media_fire_link']; ?>" style="text-align: left;">
+                                            <!-- <span class="glyphicon glyphicon-hand-right"> </span> -->
+                                            <?php echo $row['vid_title']; ?>
+                                        </a>
+                                        <p style="color: rgb(100, 86, 86);text-align: left;font-size: 10px;"><strong style="font-weight: 1000;">Uploded On </strong><?php echo date_format(date_create($row['vid_post_date']), "d F Y"); ?>
+                                        </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class='parent'>
+                                    <div class='child'>
+                                        <img src="<?php echo $row['vid_img']; ?>" alt="Paris" width="50" height="40">
+                                    </div>
+                                    <div class='child'>
+                                        <a href="<?php echo $row['vid_media_fire_link']; ?>">
+                                            <span class="glyphicon glyphicon-hand-right"> </span>
+                                            <?php echo $row['vid_title']; ?>
+                                        </a>
+                                    </div>
+                                </div> -->
+                                <!-- <img src="<?php echo $row['vid_img']; ?>" alt="Paris" width="50" height="40"> -->
+                                <!-- <div class="post-info">
+                                    <a href="<?php echo $row['vid_media_fire_link']; ?>">
+                                        <span class="glyphicon glyphicon-hand-right"> </span>
+                                        <?php echo $row['vid_title']; ?>
+                                    </a>
+                                </div> -->
+                            </div>
+                            <!-- <div class="col-sm-6">
+                                <div class="post-info">
+                                    <a href="<?php echo $row['vid_media_fire_link']; ?>">
+                                         <span class="glyphicon glyphicon-hand-right"> </span>
+                                        <?php echo $row['vid_title']; ?>
+                                    </a>
+                                </div>
+                            </div> -->
+                            
+                            
+                        </div>
+
                         <!-- <img src="<?php echo $row['vid_img']; ?>" alt="Paris" width="400" height="300"> -->
-                        <img src="<?php echo $row['vid_img']; ?>" alt="Paris" width="400" height="300">
-                        <p style="color: rgb(100, 86, 86);"><strong>Uploded On  </strong><?php echo date_format(date_create($row['vid_post_date']), "d F Y"); ?></p>
+                        <!-- <img src="<?php echo $row['vid_img']; ?>" alt="Paris" width="400" height="300">
+                        <p style="color: rgb(100, 86, 86);"><strong>Uploded On  </strong><?php echo date_format(date_create($row['vid_post_date']), "d F Y"); ?></p> -->
 
                         <?php }
                     

@@ -260,6 +260,39 @@ position: relative;
   color: white;
 }
 
+
+.parent {
+  border: 1px solid black;
+  /* margin: 1rem;
+  padding: 2rem 2rem; */
+  /* text-align: center; */
+}
+.child {
+  display: inline-block;
+  border: 1px solid red;
+  /* padding: 1rem 1rem; */
+  /* vertical-align: middle; */
+}
+
+.float-parent-element { 
+  width: 100%; 
+} 
+.float-child-element { 
+  float: left; 
+  width: 50%; 
+} 
+.red { 
+  /* background-color: red;  */
+  /* margin-left: 10%;  */
+  height: 100px; 
+  /* width: 200px; */
+} 
+.yellow { 
+  /* margin-left: 10%;  */
+  height: 100px; 
+  /* background-color: yellow;  */
+}
+
 /* .success {
   color: #3c763d; 
   background: #dff0d8; 
