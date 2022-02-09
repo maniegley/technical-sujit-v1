@@ -53,8 +53,8 @@
                                 <div class="col-sm-5">
                                     <div>
                                         <a href="<?php echo $row['vid_url'] ?>">
-                                            <!-- <img src="<?php echo $row['vid_img']; ?>" class="" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';" /> -->
-                                            <img src="https://drive.google.com/file/d/10lc9L34eexD6RfhffZ3hEJqP2nzWKit4/view?usp=sharing" class="" alt="upload/alternate.jpg"  />
+                                            <img src="<?php echo $row['vid_img']; ?>" class="" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';" />
+                                            <!-- <img src="https://drive.google.com/file/d/10lc9L34eexD6RfhffZ3hEJqP2nzWKit4/view?usp=sharing" class="" alt="upload/alternate.jpg"  /> -->
                                         </a>
                                     </div>
                                     
