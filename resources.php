@@ -29,11 +29,11 @@
         <link rel="icon" href="images/logo1.jpeg" sizes="32x32" />
         <style>    
             /* Set black background color, white text and some padding */
-            footer {
+            /* footer {
                 background-color: #555;
                 color: white;
                 padding: 15px;
-            }
+            } */
         </style>
     </head>
     <body>
