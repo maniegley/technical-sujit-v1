@@ -12,7 +12,7 @@
         } else {
             $get_video_query = "SELECT * FROM t_media_fire_link where media_url='$media_link'";
         }
-        echo $get_video_query;
+        
         $result = pg_query($db, $get_video_query);
 ?>
 <!DOCTYPE html>
@@ -51,9 +51,11 @@
                         <div class="panel">
                             <div class="panel-body">
                                 <div class="col-sm-6">
+                                    <div>
                                     <a href="<?php echo $row['media_url'] ?>">
                                         <img src="<?php echo $row['media_thumbnail_img']; ?>" class="" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';" />
                                     </a>
+                        </div>
                                     <p style="color: rgb(100, 86, 86);"><strong>Uploded On </strong><?php echo date_format(date_create($row['media_upld_date']), "d F Y"); ?>
                                     </p>
                                 </div>
