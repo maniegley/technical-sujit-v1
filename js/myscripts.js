@@ -37,3 +37,43 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 1000
   });
+
+
+  function showUser(str) {
+    console.log("hello");
+    console.log(str);
+  if (str == "") {
+    //document.getElementById("txtHint").innerHTML = "";
+    return;
+  } else {
+    
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        console.log(this.responseText);
+        document.getElementById("txtHint").innerHTML = this.responseText;
+      }
+    };
+    xmlhttp.open("GET","resources.php?get-resource="+str,false);
+    xmlhttp.send();
+  }
+}
+function showLink(str) {
+  console.log("hello");
+  console.log(str);
+if (str == "") {
+  //document.getElementById("txtHint").innerHTML = "";
+  return;
+} else {
+  
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      console.log(this.responseText);
+      document.getElementById("txtLink").innerHTML = this.responseText;
+    }
+  };
+  xmlhttp.open("GET","get-resource-link.php?get-resource="+str,false);
+  xmlhttp.send();
+}
+}
