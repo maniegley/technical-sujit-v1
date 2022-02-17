@@ -25,7 +25,7 @@
         <form method="post" enctype="multipart/form-data">
             <?php include('errors.php'); ?>
             <div class="input-group">
-                <label for="email">Title</label>
+                <label for="email">Title<span style="color:red">*</span></label>
                 <input type="text" class="form-control" id="title" name="title" value="<?php echo $title;?>">
             </div>
             <div class="input-group">
@@ -33,17 +33,21 @@
                 <input type="text" class="form-control" id="description" name="description" value="<?php echo $description;?>">
             </div>
             <div class="input-group">
-                <label for="pwd">Youtube URL</label>
+                <label for="pwd">Youtube URL<span style="color:red">*</span></label>
                 <input type="text" class="form-control" id="url" name="url" value="<?php echo $url;?>">
             </div>
             <div class="input-group">
-                <label for="pwd">Mediafire URL</label>
+                <label for="pwd">Mediafire URL<span style="color:red">*</span></label>
                 <input type="text" class="form-control" id="media-url" name="media-url" value="<?php echo $media_url;?>">
             </div>
             <div class="input-group">
-                <label for="pwd">Choose Thumbnail</label>
-                <input type="file" name="fileToUpload" id="fileToUpload">
+                <label for="pwd">Image URL<span style="color:red">*</span></label>
+                <input type="text" class="form-control" id="img-url" name="img-url" value="<?php echo $img_url;?>">
             </div>
+            <!-- <div class="input-group">
+                <label for="pwd">Choose Thumbnail<span style="color:red">*</span></label>
+                <input type="file" name="fileToUpload" id="fileToUpload">
+            </div> -->
                             
             <button type="submit" class="btn btn-default" value="add-video-link" name="add-video-link">Submit</button>
         </form>
