@@ -143,7 +143,7 @@
                                 <div class="float-parent-element">
                                     <div class="float-child-element">
                                         <div class="red">
-                                            <img src="<?php echo $row['vid_img']; ?>" alt="Paris" width="100" height="90">
+                                            <img src="<?php echo $row['vid_img']; ?>" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';" width="100" height="90" />
                                         </div>
                                     </div>
                                     <div class="float-child-element">
