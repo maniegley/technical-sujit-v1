@@ -10,7 +10,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="../style/mystyle.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="icon" href="../images/logo1.jpeg" sizes="32x32" />
+        <link rel="icon" href="../../images/logo1.jpeg" sizes="32x32" />
         <style>    
             /* Set black background color, white text and some padding */
             /* footer {
@@ -18,66 +18,7 @@
                 color: white;
                 padding: 15px;
             } */
-            .tdb-title-text{
-                display: inline-block;
-                position: relative;
-                margin: 0;
-                word-wrap: break-word;
-                font-size: 20px;
-                line-height: 38px;
-                font-weight: 700;
-                text-align: left;
-            }
-
-            .r-nested-title{
-                display: inline-block;
-                text-decoration: underline; 
-                margin: 0;
-                word-wrap: break-word;
-                font-size: 22px;
-                line-height: 38px;
-                font-weight: 700;
-                color: #b91871;
-                font-family: "Cormorant Unicase", serif;
-            }
-
-            .thanks-note{
-                display: inline-block;
-                margin: 0;
-                word-wrap: break-word;
-            }
-
-            .r-suru{
-                font-size: 15px;
-                line-height: 20px;
-                font-weight: 700;
-                text-decoration: underline; 
-            }
-
-            .r-link{
-                color: green;
-                text-decoration: underline; 
-                word-wrap: break-word;
-                font-size: 15px;
-                font-weight: 700;
-            }
-
-            .scrol{
-                overflow-x: hidden;
-                overflow-y: auto;
-            }
-
-            .ss{
-                width: 100%;
-                height: 100%;
-                margin: 20px;
-            }
-
-            .ssH{
-                width: 60%;
-                height: 500px;
-                margin: 10px;
-            }
+            
         </style>
     </head>
     <body>

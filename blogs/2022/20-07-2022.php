@@ -77,7 +77,8 @@
 
                     <?php
                             include('../../connection.php');
-                            $get_video_query = "SELECT * FROM t_vid_link ORDER BY id DESC LIMIT 1";
+                            $f = "2022/20-07-2022.php";
+                            $get_video_query = "SELECT * FROM t_vid_link where vid_resource_link='$f'";
                             //$result = mysqli_query($db, $get_video_query);
                             $result = pg_query($db, $get_video_query);
                             while($row = pg_fetch_assoc($result)){
@@ -105,7 +106,7 @@
                                         Isi jos se aap hame support karte rhe taki hum aapke liye aise hi aur content banate rhe.
                                         </p>
                                         <a href="<?php echo $row['media_url'] ?>">
-                                            <img src="<?php echo $row['vid_img']; ?>" class="" alt="../../upload/image-not-found.jpg" onerror="this.src='../../upload/image-not-found.jpg';" />
+                                            <img src="../../<?php echo $row['vid_img']; ?>" class="" alt="../../upload/image-not-found.jpg" onerror="this.src='../../upload/image-not-found.jpg';" />
                                         </a>
                                         </br></br></br></br>
                                         <h3 class="r-nested-title">How to Download Materials !!!</h3>
@@ -134,12 +135,7 @@
 
                                             <p>
                                                 <b>Step 2:</b> Niche diye gye link se app wo sare material download kar le.
-                                                <a href="#" class="r-link">Download</a>
-                                            </p>
-
-                                            <p>
-                                                <b>Step 2:</b> Niche diye gye link se app wo sare material download kar le.
-                                                <a href="#" class="r-link">Download</a>
+                                                <a href="<?php echo $row['media_title']; ?>" class="r-link">Download</a>
                                             </p>
                                             <img src="../../upload/download.png" class="" alt="../../upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';" />
 

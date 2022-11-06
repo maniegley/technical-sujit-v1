@@ -44,6 +44,11 @@
                 <label for="pwd">Image URL<span style="color:red">*</span></label>
                 <input type="text" class="form-control" id="img-url" name="img-url" value="<?php echo $img_url;?>">
             </div>
+
+            <div class="input-group">
+                <label for="pwd">Blog URL<span style="color:red">*</span></label>
+                <input type="text" class="form-control" id="blog-url" name="blog-url" value="<?php echo $blog_url;?>">
+            </div>
             <!-- <div class="input-group">
                 <label for="pwd">Choose Thumbnail<span style="color:red">*</span></label>
                 <input type="file" name="fileToUpload" id="fileToUpload">

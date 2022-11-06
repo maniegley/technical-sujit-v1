@@ -39,9 +39,10 @@
                 position: relative;
                 margin: 0;
                 word-wrap: break-word;
-                font-size: 30px;
+                font-size: 20px;
                 line-height: 38px;
                 font-weight: 700;
+                text-align: left;
             }
 
             .r-nested-title{
@@ -81,6 +82,17 @@
                 overflow-x: hidden;
                 overflow-y: auto;
             }
+
+            .ss{
+                width: 100%;
+                height: 100%;
+                margin: 20px;
+            }
+
+            .ssH{
+                width: 80%;
+                height: 10%;
+            }
         </style>
     </head>
     <body>
@@ -114,7 +126,7 @@
                                             <?php echo $row['media_title']; ?>
                                         </a> -->
 
-                                        <h1 class="tdb-title-text"><?php echo $row['media_title']; ?></h1>
+                                        <heading class="tdb-title-text"><?php echo $row['media_title']; ?></heading>
                                 
                                     </div>
                                     <div class="post-info">
@@ -145,41 +157,62 @@
                                         To chaliye suru karte hai!!!
                                         </p>
 
-                                        <p>
-                                        <b class="#">Step 1:</b> Sabse pahle aapko wo sare material download karne honge jo is reels ko banane me use hue hai.
-                                        </p>
+                                        <!-- Step Started from here -->
+                                        <div class=""> 
 
-                                        <p>
-                                            <b>Step 2:</b> Niche diye gye link se app wo sare material download kar le.
-                                            <a href="#" class="r-link">Download</a>
-                                        </p>
-                                        <img src="upload/download.png" class="" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';" />
+                                            <p>
+                                                <b class="#">Step 1:</b> Sabse pahle aapko wo sare material download karne honge jo is reels ko banane me use hue hai.
+                                            </p>
 
-                                        <p>
-                                            <b>Step 3:</b> Materials successfully download hone ke bad aapko hamare youtube video ko dekhna hoga. Aap niche diye gye link se us video ko dekh sakte hai.
-                                            <a href="#" class="r-link">Watch Now</a>
-                                        </p>
+                                            <p>
+                                                <b>Step 2:</b> Niche diye gye link se app wo sare material download kar le.
+                                                <a href="#" class="r-link">Download</a>
+                                            </p>
+
+                                            <p>
+                                                <b>Step 2:</b> Niche diye gye link se app wo sare material download kar le.
+                                                <a href="#" class="r-link">Download</a>
+                                            </p>
+                                            <img src="upload/download.png" class="" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';" />
+
+                                            <p>
+                                                <b>Step 3:</b> Materials successfully download hone ke bad aapko hamare youtube video ko dekhna hoga. Aap niche diye gye link se us video ko dekh sakte hai.
+                                                <a href="https://www.youtube.com/channel/UCMtf9XMR1sm0_xFujgNNabw" class="r-link">Watch Now</a>
+                                            </p>
+
+                                            <p>
+                                                <b>test1:</b> Niche diye gye link se app wo sare material download kar le.
+                                            
+                                            </p>
+                                            <div class="screenshot">
+                                                <img src="upload/test1.jpeg" class="ss" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';" />
+                                            </div>
+                                                
+                                      
+
                                         
-                                        <!-- <img src="upload/watch-now.png" class="" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';" /> -->
+                                            <p>
+                                                <b>test2:</b> Niche diye gye link se app wo sare material download kar le.
+                                            </p>
+
+                                            <div>
+                                            <img src="upload/test2.jpeg" class="ssH" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';"/><br>
+                                            </div>
+                                            
+                                            
 
 
-                                        <h3 class="r-nested-title">Conclusion :</h3>
+                                            <h3 class="r-nested-title">Conclusion :</h3>
 
-                                        <p>
-                                        I hope aap ye reels video bna paye honge. Agar aapko hamara ye kam achha lga ye aap aur treding reels banana chahte hai to hamare website ke home page HOME aur youtube cannel pe checkout kare. Aur hume support karne ke liye hamare youtube channel ko subscribe jarur kare. 
-                                        </p>
+                                            <p>
+                                                I hope aap ye reels video bna paye honge. Agar aapko hamara ye kam achha lga ye aap aur treding reels banana chahte hai to hamare website ke home page HOME aur youtube cannel pe checkout kare. Aur hume support karne ke liye hamare youtube channel ko subscribe jarur kare. 
+                                            </p>
+
+                                        </div>
 
                                         <!-- <h2>Thanks For all your support!!!</h2> -->
                                     </div>  
-                                    <p>
-                                        <!-- <strong><?php echo $row['media_title']; ?></strong>
-                                        </br>
-                                        <a href="#">
-                                            <i class="fa fa-arrow-down" style="font-size:100px;color:red"></i>
-                                            </br>  
-                                        </a> -->
-                                        <!-- <a href="<?php echo $row['media_url']; ?>"><button class="btn btn-primary btn-lg">Click here for download</button></a> -->
-                                    </p>
+                                    
                                 </div>
                             </div>
                         </div>

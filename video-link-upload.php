@@ -5,6 +5,7 @@
     $url = "";
     $media_url = "";
     $img_url = "";
+    $blog_url = "";
     $errors = array(); 
     $success = array(); 
     // connect to the database
@@ -16,7 +17,8 @@
         $url = $_POST['url'];
         $media_url = $_POST['media-url'];
         $img_url = $_POST['img-url'];
-        $custom_media_url = "blogs/" . $media_url;
+        $blog_url = "blogs/" . $_POST['blog-url'];
+        //$custom_media_url =  . $blog_url;
         //$custom_media_url = str_replace("https://www.mediafire.com/","https://technical-sujit-v1.herokuapp.com/resources.php?get-resource=", $media_url);
         //$img_id = substr($img_url, 32);
         //$final_img_id = "";
@@ -50,6 +52,11 @@
         if (empty($img_url)) {
             array_push($errors, "Image URL is required");
         }
+
+        if (empty($blog_url)) {
+            array_push($errors, "Blog URL is required");
+        }
+
 
         // if (empty(basename($_FILES["fileToUpload"]["name"]))) {
         //     array_push($errors, "Thumbnail image is required. ");
@@ -99,8 +106,8 @@
         //$img = $target_file;
         $sub_admin = "admin";
         if (count($errors) == 0) {
-            $video = "INSERT INTO t_vid_link (vid_title,vid_description,vid_url,vid_img,vid_uploaded_by,vid_media_fire_link) VALUES ('$title', '$description', '$url', '$img_url','$sub_admin','$custom_media_url');";
-            $resource_query = "INSERT INTO t_media_fire_link (media_title,media_description,media_url,media_uploaded_by,media_thumbnail_img) VALUES ('$title', '$description', '$media_url', '$sub_admin', '$custom_img_url');";
+            $video = "INSERT INTO t_vid_link (vid_title,vid_description,vid_url,vid_img,vid_uploaded_by,vid_media_fire_link,vid_resource_link) VALUES ('$title', '$description', '$url', '$img_url','$sub_admin','$media_url', '$blog_url');";
+            //$resource_query = "INSERT INTO t_media_fire_link (media_title,media_description,media_url,media_uploaded_by,media_thumbnail_img) VALUES ('$title', '$description', '$media_url', '$sub_admin', '$custom_img_url');";
             //echo $video;
             //echo $resource_query;
             //echo $resource_query;
@@ -110,8 +117,8 @@
             } else {
                 //echo "Opened database successfully\n";
                 $result = pg_query($db, $video);
-                $resource_result = pg_query($db, $resource_query);
-                if(!$result && !$resource_result) {
+                //$resource_result = pg_query($db, $resource_query);
+                if(!$result) {
                     array_push($errors, "Something went wrong! Please try again.");
                 } else {
                     if($uploadOk==1){

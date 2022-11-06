@@ -66,7 +66,7 @@
                                       
                                     <div class="post-info">
                                       
-                                            <a href="<?php echo $row['vid_media_fire_link']; ?>">
+                                            <a href="<?php echo $row['vid_resource_link']; ?>">
                                                 <!-- <span class="glyphicon glyphicon-hand-right"> </span> -->
                                                 <?php echo $row['vid_title']; ?>
                                             </a>
