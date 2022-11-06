@@ -77,7 +77,7 @@
 
                     <?php
                             include('../../connection.php');
-                            $f = "2022/20-07-2022.php";
+                            $f = "blogs/2022/20-07-2022.php";
                             $get_video_query = "SELECT * FROM t_vid_link where vid_resource_link='$f'";
                             //$result = mysqli_query($db, $get_video_query);
                             $result = pg_query($db, $get_video_query);
@@ -105,7 +105,7 @@
                                         <p>
                                         Isi jos se aap hame support karte rhe taki hum aapke liye aise hi aur content banate rhe.
                                         </p>
-                                        <a href="<?php echo $row['media_url'] ?>">
+                                        <a href="<?php echo $row['vid_url'] ?>">
                                             <img src="../../<?php echo $row['vid_img']; ?>" class="" alt="../../upload/image-not-found.jpg" onerror="this.src='../../upload/image-not-found.jpg';" />
                                         </a>
                                         </br></br></br></br>
@@ -113,14 +113,9 @@
                                         
 
                                         <p>
-                                        <b><?php echo $row['media_title']; ?></b> is reel ko banana bahut hi aasan hai. Bas aapko niche diye gaye sare steps throughly follow karne honge.
+                                        <b><?php echo $row['vid_title']; ?></b> is reel ko banana bahut hi aasan hai. Bas aapko niche diye gaye sare steps throughly follow karne honge.
                                         </p>
-                                            
-                                        <?php
-                                            }
-                                        ?>
-
-
+                                        
 
                                         <p class="r-suru">
                                         To chaliye suru karte hai!!!
@@ -135,14 +130,22 @@
 
                                             <p>
                                                 <b>Step 2:</b> Niche diye gye link se app wo sare material download kar le.
-                                                <a href="<?php echo $row['media_title']; ?>" class="r-link">Download</a>
+                                                <a href="<?php echo $row['vid_media_fire_link']; ?>" class="r-link">Download</a>
                                             </p>
-                                            <img src="../../upload/download.png" class="" alt="../../upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';" />
-
+                                            <a href="<?php echo $row['vid_media_fire_link']; ?>">
+                                                <img src="../../upload/download.png" class="" alt="../../upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';" style="width:50%; height:20%"/>
+                                            </a>
                                             <p>
                                                 <b>Step 3:</b> Materials successfully download hone ke bad aapko hamare youtube video ko dekhna hoga. Aap niche diye gye link se us video ko dekh sakte hai.
-                                                <a href="https://www.youtube.com/channel/UCMtf9XMR1sm0_xFujgNNabw" class="r-link">Watch Now</a>
+                                                <a href="<?php echo $row['vid_url'] ?>" class="r-link">Watch Now</a>
                                             </p>
+
+                                                
+                                        <?php
+                                            }
+                                        ?>
+
+
 
                                             <p>
                                                 <b>Step 4:</b> Sabse pahle Reface App ko Open karna hoga
@@ -267,7 +270,7 @@
                                 <div class="float-parent-element">
                                     <div class="float-child-element">
                                         <div class="red">
-                                            <img src="<?php echo $row['vid_img']; ?>" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';" width="100" height="90">
+                                            <img src="../../<?php echo $row['vid_img']; ?>" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';" width="100" height="90">
                                         </div>
                                     </div>
                                     <div class="float-child-element">

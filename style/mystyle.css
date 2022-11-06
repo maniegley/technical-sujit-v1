@@ -162,6 +162,11 @@ body{
   width: 100%;
 }
 
+.panel div img{
+  height: 100%;
+  width: 100%;
+}
+
 .title{
     position: relative;
     float: left;
