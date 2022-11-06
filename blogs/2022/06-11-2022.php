@@ -77,7 +77,7 @@
 
                     <?php
                             include('../../connection.php');
-                            $f = "2022/06-11-2022.php";
+                            $f = "blogs/2022/06-11-2022.php";
                             $get_video_query = "SELECT * FROM t_vid_link where vid_resource_link='$f'";
                             //$result = mysqli_query($db, $get_video_query);
                             $result = pg_query($db, $get_video_query);
