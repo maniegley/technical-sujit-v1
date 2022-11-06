@@ -147,68 +147,60 @@
 
 
 
-                                            <p>
-                                                <b>Step 4:</b> Sabse pahle Reface App ko Open karna hoga
+<p>
+                                                <b>Step 4:</b> Sabse pahle Motion Ninja App ko Open karna hoga
                                             
                                             </p><br>
                                             <div class="screenshot">
-                                                <img src="../../upload/20-07-2022/image1.jpeg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';" />
+                                                <img src="../../upload/05-11-2022/20221105_220311.jpg" class="ssH" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';" />
                                             </div>
                                                                                       
                                             <p>
-                                                <b>Step 5:</b> Al Tools pe Click Karna hoga
+                                                <b>Step 5:</b> New Project Pe Click Karna Hoga
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/20-07-2022/image2.jpeg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/05-11-2022/20221105_220411.jpg" class="ssH" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';"/><br>
                                             </div>
                                             
                                             <p>
-                                                <b>Step 6:</b> Phir Swap Faces pe Click Karna hoga
+                                                <b>Step 6:</b> Plus(+) Wala Icon Pe Click Kare
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/20-07-2022/image3.jpeg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/05-11-2022/20221105_220501.jpg" class="ssH" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';"/><br>
                                             </div>
 
                                             <p>
-                                                <b>Step 7:</b> Gallery Open hokar aayega Jis video me face lagana chahte hai us video ko select kijiye ga
+                                                <b>Step 7:</b> Effect Pe Click Karna Hoga
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/20-07-2022/image4.jpeg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/05-11-2022/20221105_220551.jpg" class="ssH" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';"/><br>
                                             </div>
 
                                             <p>
-                                                <b>Step 8:</b> Phir next pe Click Karna hoga
+                                                <b>Step 8:</b> Blur Meta Pe Click Karna Hoga Uske Baad Niche Apko 3 Popular Effect Dekhne Ko Mil Jayega
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/20-07-2022/image5.jpeg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/05-11-2022/20221105_220647.jpg" class="ssH" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';"/><br>
                                             </div>
                                             
                                             <p>
-                                                <b>Step 9:</b> Phir + (me) pe Click Karna hoga
+                                                <b>Step 9:</b> Effect Apply Karne Ke Baad Niche 3 Preset Dekhne Ko Mil Jayega Jo Acha Lage O App Apply Kar Sakte Hai
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/20-07-2022/image6.jpeg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/05-11-2022/20221105_220806.jpg" class="ssH" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';"/><br>
                                             </div>
 
                                             <p>
-                                                <b>Step 10:</b> Photo select karke Swap face pe Click Karna hoga
+                                                <b>Step 10:</b> Standard Pe Click Karke Khud Se Adjustment Kar Sakte Hai
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/20-07-2022/image7.jpeg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';"/><br>
-                                            </div>
-
-                                            <p>
-                                                <b>Step 11:</b> Video ban jane ke baad video ko save kar lena hoga
-                                            </p><br>
-
-                                            <div>
-                                                <img src="../../upload/20-07-2022/image8.jpeg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/05-11-2022/20221105_220908.jpeg" class="ssH" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';"/><br>
                                             </div>
                                             
 
