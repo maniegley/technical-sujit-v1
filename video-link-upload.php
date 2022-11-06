@@ -16,18 +16,19 @@
         $url = $_POST['url'];
         $media_url = $_POST['media-url'];
         $img_url = $_POST['img-url'];
-        $custom_media_url = str_replace("https://www.mediafire.com/","https://technical-sujit-v1.herokuapp.com/resources.php?get-resource=", $media_url);
-        $img_id = substr($img_url, 32);
-        $final_img_id = "";
-        $i = 0;
-        while($img_id[$i]!="/"){
-            $final_img_id = $final_img_id.$img_id[$i];
-            $i = $i+1;
-        }
+        $custom_media_url = "blogs/" . $media_url;
+        //$custom_media_url = str_replace("https://www.mediafire.com/","https://technical-sujit-v1.herokuapp.com/resources.php?get-resource=", $media_url);
+        //$img_id = substr($img_url, 32);
+        //$final_img_id = "";
+        //$i = 0;
+        // while($img_id[$i]!="/"){
+        //     $final_img_id = $final_img_id.$img_id[$i];
+        //     $i = $i+1;
+        // }
         //$custom_img_url = str_replace("https://drive.google.com/file/d/", "https://drive.google.com/uc?export=view&id=", $img_url);
         //$custom_img_url = str_replace("/view?usp=sharing", "", $custom_img_url);
-        $custom_img_url = "https://drive.google.com/uc?export=view&id=";
-        $custom_img_url = $custom_img_url.$final_img_id;
+        //$custom_img_url = "https://drive.google.com/uc?export=view&id=";
+        //$custom_img_url = $custom_img_url.$final_img_id;
         $uploadOk = 1;
         //Checking required field to be empty
         if (empty($title)) {
@@ -98,7 +99,7 @@
         //$img = $target_file;
         $sub_admin = "admin";
         if (count($errors) == 0) {
-            $video = "INSERT INTO t_vid_link (vid_title,vid_description,vid_url,vid_img,vid_uploaded_by,vid_media_fire_link) VALUES ('$title', '$description', '$url', '$custom_img_url','$sub_admin','$custom_media_url');";
+            $video = "INSERT INTO t_vid_link (vid_title,vid_description,vid_url,vid_img,vid_uploaded_by,vid_media_fire_link) VALUES ('$title', '$description', '$url', '$img_url','$sub_admin','$custom_media_url');";
             $resource_query = "INSERT INTO t_media_fire_link (media_title,media_description,media_url,media_uploaded_by,media_thumbnail_img) VALUES ('$title', '$description', '$media_url', '$sub_admin', '$custom_img_url');";
             //echo $video;
             //echo $resource_query;
