@@ -133,7 +133,7 @@
                                                 <a href="<?php echo $row['vid_media_fire_link']; ?>" class="r-link">Download</a>
                                             </p>
                                             <a href="<?php echo $row['vid_media_fire_link']; ?>">
-                                                <img src="../../upload/download.png" class="" alt="../../upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';" style="width:50%; height:20%"/>
+                                                <img src="../../upload/download.png" class="" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';" style="width:50%; height:20%"/>
                                             </a>
                                             <p>
                                                 <b>Step 3:</b> Materials successfully download hone ke bad aapko hamare youtube video ko dekhna hoga. Aap niche diye gye link se us video ko dekh sakte hai.
@@ -152,7 +152,7 @@
                                             
                                             </p><br>
                                             <div class="screenshot">
-                                                <img src="../../upload/05-11-2022/20221105_220311.jpg" class="ssH" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';" />
+                                                <img src="../../upload/05-11-2022/20221105_220311.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';" />
                                             </div>
                                                                                       
                                             <p>
@@ -160,7 +160,7 @@
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/05-11-2022/20221105_220411.jpg" class="ssH" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/05-11-2022/20221105_220411.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='.././upload/image-not-found.jpg';"/><br>
                                             </div>
                                             
                                             <p>
@@ -168,7 +168,7 @@
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/05-11-2022/20221105_220501.jpg" class="ssH" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/05-11-2022/20221105_220501.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
                                             </div>
 
                                             <p>
@@ -176,7 +176,7 @@
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/05-11-2022/20221105_220551.jpg" class="ssH" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/05-11-2022/20221105_220551.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
                                             </div>
 
                                             <p>
@@ -184,7 +184,7 @@
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/05-11-2022/20221105_220647.jpg" class="ssH" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/05-11-2022/20221105_220647.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
                                             </div>
                                             
                                             <p>
@@ -192,7 +192,7 @@
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/05-11-2022/20221105_220806.jpg" class="ssH" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/05-11-2022/20221105_220806.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
                                             </div>
 
                                             <p>
@@ -200,7 +200,7 @@
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/05-11-2022/20221105_220908.jpeg" class="ssH" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/05-11-2022/20221105_220908.jpeg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
                                             </div>
                                             
 

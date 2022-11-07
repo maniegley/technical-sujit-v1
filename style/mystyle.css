@@ -162,10 +162,10 @@ body{
   width: 100%;
 }
 
-.panel div img{
+/* .panel div img{
   height: 70%;
   width: 80%;
-}
+} */
 
 .title{
     position: relative;
@@ -839,7 +839,7 @@ address a:hover {
 }
 
 .ssH{
-  width: 60%;
-  height: 500px;
-  margin: 10px;
+  height: 70%;
+  width: 80%;
+  margin: 5px;
 }
