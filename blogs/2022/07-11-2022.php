@@ -77,7 +77,7 @@
 
                     <?php
                             include('../../connection.php');
-                            $f = "blogs/2022/06-11-2022.php";
+                            $f = "blogs/2022/07-11-2022.php";
                             $get_video_query = "SELECT * FROM t_vid_link where vid_resource_link='$f'";
                             //$result = mysqli_query($db, $get_video_query);
                             $result = pg_query($db, $get_video_query);
@@ -147,61 +147,86 @@
 
 
 
-<p>
-                                                <b>Step 4:</b> Sabse pahle Motion Ninja App ko Open karna hoga
+                                            <p>
+                                                <b>Step 4:</b> Sabse pahle Capcut App Ko India Me Chalane Ke Liye VPN Se Connected Karna Parega
                                             
                                             </p><br>
                                             <div class="screenshot">
-                                                <img src="../../upload/05-11-2022/20221105_220311.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';" />
+                                                <img src="../../upload/07-11-2022/20221107_205502.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';" />
                                             </div>
                                                                                       
                                             <p>
-                                                <b>Step 5:</b> New Project Pe Click Karna Hoga
+                                                <b>Step 5:</b> Capcut App Ko Open Krke New Project Pe Click kijiye ga
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/05-11-2022/20221105_220411.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='.././upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/07-11-2022/20221107_205632.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
                                             </div>
                                             
                                             <p>
-                                                <b>Step 6:</b> Plus(+) Wala Icon Pe Click Kare
+                                                <b>Step 6:</b> Jis Video ko Edit Krna Chahte Hai Usko Select Krke Add Pe Click Kijiye Ga
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/05-11-2022/20221105_220501.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/07-11-2022/20221107_205739.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
                                             </div>
 
                                             <p>
-                                                <b>Step 7:</b> Effect Pe Click Karna Hoga
+                                                <b>Step 7:</b> Video Me Koi Sa Bhi Extra Bhag Hoga To Cuting Krke Hata Dijiye Ga
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/05-11-2022/20221105_220551.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/07-11-2022/20221107_205842.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
                                             </div>
 
                                             <p>
-                                                <b>Step 8:</b> Blur Meta Pe Click Karna Hoga Uske Baad Niche Apko 3 Popular Effect Dekhne Ko Mil Jayega
+                                                <b>Step 8:</b> Add Audio Pe Click Krke Audio (Sound) Ko Add Kijiye Ga
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/05-11-2022/20221105_220647.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/07-11-2022/20221107_205933.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
                                             </div>
                                             
                                             <p>
-                                                <b>Step 9:</b> Effect Apply Karne Ke Baad Niche 3 Preset Dekhne Ko Mil Jayega Jo Acha Lage O App Apply Kar Sakte Hai
+                                                <b>Step 9:</b> Video Ko Split Krke Sound Ke Sath Match Kar Dijiye Ga Our Slow+Fast Motion De Dijiye Ga
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/05-11-2022/20221105_220806.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/07-11-2022/20221107_210139.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
                                             </div>
 
                                             <p>
-                                                <b>Step 10:</b> Standard Pe Click Karke Khud Se Adjustment Kar Sakte Hai
+                                                <b>Step 10:</b> Animation Pe Click Krke In Animation Me Koi Sa Bhi Animation Apply Kr Dijiye Ga
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/05-11-2022/20221105_220908.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/07-11-2022/20221107_210301.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
                                             </div>
+
+                                            <p>
+                                                <b>Step 11:</b> Blur Effect Lagane Ke Liye Effect Pe Click Kijiye Ga Basic Me Jakr Halo Blur Effect Apply Kr Dijiye Ga
+                                            </p><br>
+
+                                            <div>
+                                                <img src="../../upload/07-11-2022/20221107_210411.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
+                                            </div>
+											
+											<p>
+                                                <b>Step 12:</b> Effect Ka Lyear Jitna Bara Rakhna Chahte Hai Rakh Sakte Hai
+                                            </p><br>
+
+                                            <div>
+                                                <img src="../../upload/07-11-2022/20221107_210439.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
+                                            </div>
+											
+											<p>
+                                                <b>Step 13:</b> Video Complete Ban Jane Ke Baad Quality Dekh Kr Save Kr Dijiye Ga
+                                            </p><br>
+
+                                            <div>
+                                                <img src="../../upload/07-11-2022/20221107_210506.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
+                                            </div>
+                                            
                                             
 
 
