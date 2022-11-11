@@ -12,62 +12,8 @@
         <link rel="icon" href="../../images/logo1.jpeg" sizes="32x32" />
     </head>
     <body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>                        
-            </button>
-            <a class="navbar-brand ml2" href="index.php">
-            Technical Sujit
-            </a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="../../index.php">Home</a></li>
-                <li class=""><a href="../../resources.php">Resources</a></li>
-                <li><a href="../../contact-us.php">Contact Us</a></li>
-                <li><a href="../../about.php">About</a></li>
-                <li><a href="#">Privacy & Policy</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<div class="container text-center" style="margin-top:60px;">    
-    <div class="row">
-        <div class="col-sm-offset-1 col-sm-8">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="panel text-left" style="width:300px; height:50px;">
-                        <div class="panel-body">
-                            <img src="../../upload/logo1.jpeg" style="width:300px; height:90px;">
-                        </div>   
-                    </div>
-                    
-                </div>
-            </div>
-            <!-- <div class="row">
-                <div class="col-sm-12">
-                    <div class="panel panel-warning text-left">
-                        <div class="panel-body">
-                            <p><strong style="color:red;">Recent Videos: </strong>
-                                <a class="ml3" href="#">Tere Bhaiya Khade Hai Reels Editing</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>  -->
-            <div class="row row-item1">
-                <h1 class="ml3 logo2" style="font-size:25px;">Learn Video editing with us!!!</h1>    
-            </div>
-        </div>
-    </div>
-</div>
-        
+        <?php include('../blog_header.php'); ?>
+    
         <div class="container text-center row-item1" style="margin-top:5px;">
             <div class="row">
                 <div class="col-sm-8 scrol">
@@ -237,65 +183,7 @@
                 </div>  
 
                 <!-- Right Pannel Start here! -->
-                <div class="col-sm-4 well1">
-                    <div class="title-wrap">
-                        <h2 class="title">Follow Us</h2>
-                    </div>
-                    <div class="social_box">
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-google"></a>
-                        <a href="#" class="fa fa-linkedin"></a>
-                        <a href="#" class="fa fa-youtube"></a>
-                    </div>
-                    <div class="thumbnail">
-                        <div class="title-wrap">
-                            <h2 class="title">Most View Video</h2>
-                        </div>
-                        <iframe width="250" height="200"
-                            src="https://www.youtube.com/embed/NjcRLyrqWv8?autoplay=0&mute=1">
-                        </iframe>
-                        <p><strong>Uploded</strong>
-                        Fri. 27 November 2021</p>
-                    </div>      
-
-                    <div class="thumbnail">
-                        <div class="title-wrap">
-                            <h2 class="title">Popular Post</h2>
-                        </div>
-                        
-                        <?php
-                            include('../../connection.php');
-                            $get_video_query = "SELECT * FROM t_vid_link ORDER BY id DESC LIMIT 6";
-                            $result = pg_query($db, $get_video_query);
-                            while($row = pg_fetch_assoc($result)){
-                        ?>
-                        <div class="row">     
-                            <div class="col-sm-12">
-                                <div class="float-parent-element">
-                                    <div class="float-child-element">
-                                        <div class="red">
-                                            <img src="../../<?php echo $row['vid_img']; ?>" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';" width="100" height="90">
-                                        </div>
-                                    </div>
-                                    <div class="float-child-element">
-                                        <div class="yellow">
-                                        <a href="<?php echo $row['vid_media_fire_link']; ?>" style="text-align: left;">
-                                            <?php echo $row['vid_title']; ?>
-                                        </a>
-                                        <p style="color: rgb(100, 86, 86);text-align: left;font-size: 10px;"><strong style="font-weight: 1000;">Uploded On </strong><?php echo date_format(date_create($row['vid_post_date']), "d F Y"); ?>
-                                        </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <?php }
-                    
-                    ?>
-                    </div>             
-                </div>
+                <?php include('../blog_right_pannel.php');?>
                 <!-- Right Pannel ends here! -->
                 <!-- Right Pannel ends here! -->
             </div>

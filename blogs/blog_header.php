@@ -6,33 +6,18 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>                        
             </button>
-            <a class="navbar-brand ml2" href="index.php">
+            <a class="navbar-brand ml2" href="../../index.php">
             Technical Sujit
-            <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-            <script src="js/myscripts.js"></script> -->
             </a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="../index.php">Home</a></li>
-                <!-- <li class=""><a href="resources.php">Resources</a></li> -->
-                <li><a href="contact-us.php">Contact Us</a></li>
-                <li><a href="about.php">About</a></li>
-                <li><a href="#">Privacy & Policy</a></li>
+                <li class=""><a href="../../index.php">Home</a></li>
+                <li class="active"><a href="#">Resources</a></li>
+                <li><a href="../../contact-us.php">Contact Us</a></li>
+                <li><a href="../../about.php">About</a></li>
+                <li><a href="../../policy-privacy.php">Privacy & Policy</a></li>
             </ul>
-            <!-- <form class="navbar-form navbar-right" role="search">
-                <div class="form-group input-group">
-                    <input type="text" class="form-control" placeholder="Search..">
-                    <span class="input-group-btn">
-                        <button class="btn btn-default" type="button">
-                             <span class="glyphicon glyphicon-search"></span>
-                        </button>
-                    </span>        
-                </div>
-            </form> -->
-            <!-- <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
-            </ul> -->
         </div>
     </div>
 </nav>
@@ -44,7 +29,7 @@
                 <div class="col-sm-12">
                     <div class="panel text-left" style="width:300px; height:50px;">
                         <div class="panel-body">
-                            <img src="upload/logo1.jpeg" style="width:300px; height:90px;">
+                            <img src="../../upload/logo1.jpeg" style="width:300px; height:90px;">
                         </div>   
                     </div>
                     
