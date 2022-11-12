@@ -73,14 +73,14 @@
                                             <p>
                                                 <b>Step 4:</b> Sabse pahle Motion Ninja App ko Open karna hoga
                                             
-                                            </p><br>
+                                            </p>
                                             <div class="screenshot">
                                                 <img src="../../upload/05-11-2022/20221105_220311.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';" />
                                             </div>
                                                                                       
                                             <p>
                                                 <b>Step 5:</b> New Project Pe Click Karna Hoga
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/05-11-2022/20221105_220411.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='.././upload/image-not-found.jpg';"/><br>
@@ -88,7 +88,7 @@
                                             
                                             <p>
                                                 <b>Step 6:</b> Plus(+) Wala Icon Pe Click Kare
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/05-11-2022/20221105_220501.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -96,7 +96,7 @@
 
                                             <p>
                                                 <b>Step 7:</b> Effect Pe Click Karna Hoga
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/05-11-2022/20221105_220551.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -104,7 +104,7 @@
 
                                             <p>
                                                 <b>Step 8:</b> Blur Meta Pe Click Karna Hoga Uske Baad Niche Apko 3 Popular Effect Dekhne Ko Mil Jayega
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/05-11-2022/20221105_220647.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -112,7 +112,7 @@
                                             
                                             <p>
                                                 <b>Step 9:</b> Effect Apply Karne Ke Baad Niche 3 Preset Dekhne Ko Mil Jayega Jo Acha Lage O App Apply Kar Sakte Hai
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/05-11-2022/20221105_220806.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -120,7 +120,7 @@
 
                                             <p>
                                                 <b>Step 10:</b> Standard Pe Click Karke Khud Se Adjustment Kar Sakte Hai
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/05-11-2022/20221105_220908.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>

@@ -74,14 +74,14 @@
                                             <p>
                                                 <b>Step 4:</b> Sabse pahle Capcut App Ko India Me Chalane Ke Liye VPN Se Connected Karna Parega
                                             
-                                            </p><br>
+                                            </p>
                                             <div class="screenshot">
                                                 <img src="../../upload/07-11-2022/20221107_205502.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';" />
                                             </div>
                                                                                       
                                             <p>
                                                 <b>Step 5:</b> Capcut App Ko Open Krke New Project Pe Click kijiye ga
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/07-11-2022/20221107_205632.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -89,7 +89,7 @@
                                             
                                             <p>
                                                 <b>Step 6:</b> Jis Video ko Edit Krna Chahte Hai Usko Select Krke Add Pe Click Kijiye Ga
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/07-11-2022/20221107_205739.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -97,7 +97,7 @@
 
                                             <p>
                                                 <b>Step 7:</b> Video Me Koi Sa Bhi Extra Bhag Hoga To Cuting Krke Hata Dijiye Ga
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/07-11-2022/20221107_205842.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -105,7 +105,7 @@
 
                                             <p>
                                                 <b>Step 8:</b> Add Audio Pe Click Krke Audio (Sound) Ko Add Kijiye Ga
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/07-11-2022/20221107_205933.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -113,7 +113,7 @@
                                             
                                             <p>
                                                 <b>Step 9:</b> Video Ko Split Krke Sound Ke Sath Match Kar Dijiye Ga Our Slow+Fast Motion De Dijiye Ga
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/07-11-2022/20221107_210139.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -121,7 +121,7 @@
 
                                             <p>
                                                 <b>Step 10:</b> Animation Pe Click Krke In Animation Me Koi Sa Bhi Animation Apply Kr Dijiye Ga
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/07-11-2022/20221107_210301.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -129,7 +129,7 @@
 
                                             <p>
                                                 <b>Step 11:</b> Blur Effect Lagane Ke Liye Effect Pe Click Kijiye Ga Basic Me Jakr Halo Blur Effect Apply Kr Dijiye Ga
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/07-11-2022/20221107_210411.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -137,7 +137,7 @@
 											
 											<p>
                                                 <b>Step 12:</b> Effect Ka Lyear Jitna Bara Rakhna Chahte Hai Rakh Sakte Hai
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/07-11-2022/20221107_210439.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -145,7 +145,7 @@
 											
 											<p>
                                                 <b>Step 13:</b> Video Complete Ban Jane Ke Baad Quality Dekh Kr Save Kr Dijiye Ga
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/07-11-2022/20221107_210506.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>

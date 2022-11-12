@@ -75,14 +75,14 @@
                                             <p>
                                                 <b>Step 4:</b> Sabse pahle Capcut App Ko India Me Chalane Ke Liye VPN Se Connected Karna Parega
                                             
-                                            </p><br>
+                                            </p>
                                             <div class="screenshot">
                                                 <img src="../../upload/11-11-2022/20221111_162240.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';" />
                                             </div>
                                                                                       
                                             <p>
                                                 <b>Step 5:</b> Capcut App Ko Open Kijiye Ga
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/11-11-2022/20221111_170713.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -90,7 +90,7 @@
                                             
                                             <p>
                                                 <b>Step 6:</b> New Project Pe Click Kijiye Ga
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/11-11-2022/20221111_170810.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -98,7 +98,7 @@
 
                                             <p>
                                                 <b>Step 7:</b> Jis Video Ka Sky Remove Karna Chahte Hai Usko Select Karke Add Kijiye ga
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/11-11-2022/20221111_171036.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -106,7 +106,7 @@
 
                                             <p>
                                                 <b>Step 8:</b> Video Ke Starting Me Ya End Me Koi Bhi Extra Bhag Hoga To Usko Cuting Krke Hata Dijiye Ga
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/11-11-2022/20221111_171229.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -114,7 +114,7 @@
                                             
                                             <p>
                                                 <b>Step 9:</b> Overlay Pe Click Kijiye Ga
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/11-11-2022/20221111_192910.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -122,7 +122,7 @@
 
                                             <p>
                                                 <b>Step 10:</b> Sky Me Jis Photo Ya Video Lagana Chahte Hai Usko Select Karke Add Kijiye Ga
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/11-11-2022/20221111_171425.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -130,7 +130,7 @@
 
                                             <p>
                                                 <b>Step 11:</b> Layer Pe Click Karke Mask Pe Click Kijiye Ga
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/11-11-2022/20221111_172007.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -138,7 +138,7 @@
 											
 											<p>
                                                 <b>Step 12:</b> Split Pe Click Karke Sky Photo Video Ko Adjust Kijiye Ga
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/11-11-2022/20221111_172133.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -146,7 +146,7 @@
 											
 											<p>
                                                 <b>Step 13:</b> Main Video Pe Click Karke Copy Kar Dijiye Ga
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/11-11-2022/20221111_172311.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -154,7 +154,7 @@
 								   
 								            <p>
                                                 <b>Step 14:</b> Agle Video Pe Click Karke Overlay Pe Click Kijiye Ga
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/11-11-2022/20221111_172457.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -162,7 +162,7 @@
 
                                             <p>
                                                 <b>Step 15:</b> Layer Pe Click Karke Cutout Pe Click Kijiye Ga
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/11-11-2022/20221111_172657.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -170,7 +170,7 @@
 											
 											<p>
                                                 <b>Step 16:</b> 3 Option Dekhne Ko Mil Jayega Sabse Pahle Chroma Key Pe Click Kijiye Ga
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/11-11-2022/20221111_172820.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -178,7 +178,7 @@
 											
 											<p>
                                                 <b>Step 17:</b> Color Picker Pe Click Karke Colour Ko Pick Kijiye Ga
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/11-11-2022/20221111_173108.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -186,7 +186,7 @@
 								            
 											<p>
                                                 <b>Step 18:</b> Intensity Our Shadow Pe Click Karke Sky Ko Ache Se Remove Kar Dijiye Ga
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/11-11-2022/20221111_173259.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -194,7 +194,7 @@
 
                                             <p>
                                                 <b>Step 19:</b> Agar Chrome Key Se Ache Se Remove Nahi Hota Hai To Remove BackGround Pe Click Kijiye Ga Automatic Remove Ho Jayega
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/11-11-2022/20221111_173611.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -202,7 +202,7 @@
 											
 											<p>
                                                 <b>Step 20:</b> Agar Dono Se Nahi Hota Hai To Customized Cutout Pe Click Kijiye Ga
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/11-11-2022/20221111_173807.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
@@ -210,7 +210,7 @@
 											
 											<p>
                                                 <b>Step 21:</b> Buresh Pe Click Karke Apne Body Ko Colour Kar Dijiye Ga Sky Remove Ho Jayega
-                                            </p><br>
+                                            </p>
 
                                             <div>
                                                 <img src="../../upload/11-11-2022/20221111_173902.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
