@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Technical Sujit | Resources</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="../../style/mystyle.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="icon" href="../../images/logo1.jpeg" sizes="32x32" />
-    </head>
+    <?php include('../blog_meta_head.php'); ?>
     <body>
         <?php include('../blog_header.php'); ?>
     
@@ -254,13 +244,7 @@
                 <!-- Right Pannel ends here! -->
             </div>
         </div> 
-        <?php include('../footer.php');?>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-        <script src="../../js/myscripts.js"></script>
+        <?php include('../blog_footer.php');?>
     </body>
 </html>
 
