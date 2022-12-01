@@ -77,7 +77,7 @@
                                             
                                             </p><br>
                                             <div class="screenshot">
-                                                <img src="../../upload/01-12-22/1.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';" />
+                                                <img src="../../upload/01-12-2022/1.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';" />
                                             </div>
                                                                                       
                                             <p>
@@ -85,7 +85,7 @@
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/01-12-22/2.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/01-12-2022/2.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
                                             </div>
                                             
                                             <p>
@@ -93,7 +93,7 @@
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/01-12-22/3.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/01-12-2022/3.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
                                             </div>
 
                                             <p>
@@ -101,7 +101,7 @@
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/01-12-22/15.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/01-12-2022/15.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
                                             </div>
 
                                             <p>
@@ -109,7 +109,7 @@
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/01-12-22/4.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/01-12-2022/4.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
                                             </div>
                                             
                                             <p>
@@ -117,7 +117,7 @@
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/01-12-22/5.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/01-12-2022/5.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
                                             </div>
 
                                             <p>
@@ -125,7 +125,7 @@
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/01-12-22/7.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/01-12-2022/7.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
                                             </div>
 
                                          <p>
@@ -133,7 +133,7 @@
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/01-12-22/8.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/01-12-2022/8.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
                                             </div>
                                             
                                             <p>
@@ -141,7 +141,7 @@
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/01-12-22/9.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/01-12-2022/9.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
                                             </div>
 
                                             <p>
@@ -149,7 +149,7 @@
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/01-12-22/10.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/01-12-2022/10.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
                                             </div>
 
                                             <p>
@@ -157,7 +157,7 @@
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/01-12-22/11.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/01-12-2022/11.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
                                             </div>
                                             
                                             <p>
@@ -165,7 +165,7 @@
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/01-12-22/12.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/01-12-2022/12.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
                                             </div>
 
                                             <p>
@@ -173,7 +173,7 @@
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/01-12-22/13.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/01-12-2022/13.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
                                             </div>
 
                                          <p>
@@ -181,7 +181,7 @@
                                             </p><br>
 
                                             <div>
-                                                <img src="../../upload/01-12-22/14.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
+                                                <img src="../../upload/01-12-2022/14.jpg" class="ssH" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';"/><br>
                                             </div>
 
                                             <!-- Sujit Steps are ended here. -->
