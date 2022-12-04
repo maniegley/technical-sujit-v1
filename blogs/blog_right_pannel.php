@@ -4,11 +4,11 @@
                         <h2 class="title">Follow Us</h2>
                     </div>
                     <div class="social_box">
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-google"></a>
-                        <a href="#" class="fa fa-linkedin"></a>
-                        <a href="#" class="fa fa-youtube"></a>
+                        <a href="https://www.facebook.com/technicalsujiteditor" class="fa fa-facebook" target="_blank"></a>
+                        <a href="https://www.instagram.com/invites/contact/?i=zxlr375unl9t&utm_content=nrq0xa2" class="fa fa-instagram" target="_blank"></a>
+                        <a href="https://t.me/TechnicalSujitBhai" class="fa fa-telegram" target="_blank"></a>
+                        <!-- <a href="#" class="fa fa-linkedin" target="_blank"></a> -->
+                        <a href="https://www.youtube.com/@TechnicalSujitReels/" class="fa fa-youtube" target="_blank"></a>
                     </div>
                     <div class="thumbnail">
                         <div class="title-wrap">

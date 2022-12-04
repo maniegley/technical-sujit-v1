@@ -159,18 +159,18 @@
       <div class="inner-left">
         <ul>
           <li>
-            <a href="">Home</a>
+            <a href="index.php">Home</a>
           </li>
           <li>
-            <a href="">About</a>
+            <a href="privacy-policy.php">Privacy & Policy</a>
           </li>
           <li>
-            <a href="">Contact Us</a>
+            <a href="contact-us.php">Contact Us</a>
           </li>
         </ul>
       </div>
       <div class="inner-right">
-        <p>Copyright © 2021 <span class="logo21">TechnicalSujit.&nbsp; </span><a href="#">Privacy Policy</a></p>
+        <p>Copyright © 2021 <span class="logo21">TechnicalSujit.&nbsp; </span><a href="privacy-policy.php">Privacy Policy</a></p>
         <p><a class="ct-u-motive-color" href="" target="_blank">Web Design</a> by <a href="https://techredmoon.github.io/red-moon-tech/" target="_blank"><span class="logo1">Red Moon Tech</span></a></p>
       </div>
     </div>
