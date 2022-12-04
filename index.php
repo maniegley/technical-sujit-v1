@@ -6,16 +6,17 @@
         $page=1;    
     }    
 
-    $per_page_record = 4;
+    $per_page_record = 6;
     $start_from = ($page-1)*$per_page_record;
     include('connection.php');
     if(!$db) {
         echo "Error : Something went wrong. Unable to make connection!\n";
     } else {
         //echo "Opened database successfully\n";
-        $get_video_query = "SELECT * FROM t_vid_link ORDER BY id DESC OFFSET '$start_from' LIMIT '$per_page_record'";
-        //$result = mysqli_query($db, $get_video_query);
-        $result = pg_query($db, $get_video_query);
+        //$get_video_query = "SELECT * FROM t_vid_link ORDER BY id DESC OFFSET '$start_from' LIMIT '$per_page_record'";
+        $get_video_query = "SELECT * FROM t_vid_link ORDER BY id DESC LIMIT $start_from, $per_page_record";
+        $result = mysqli_query($db, $get_video_query);
+        //$result = pg_query($db, $get_video_query);
         //$c = 1;
         // while($row = mysqli_fetch_array($result)){
 ?>
@@ -28,7 +29,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <script src="bootstrap-3.3.7\dist\js/bootstrap.min.js"></script>
+        <script src="bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="style/mystyle.css">
         <link rel="icon" href="images/logo1.jpeg" sizes="32x32" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -45,15 +46,16 @@
                         <h2 class="title">Recent Posts</h2>
                     </div>
                     <?php
-                        while($row = pg_fetch_assoc($result)){
+                        //while($row = pg_fetch_assoc($result)){
+                        while($row = mysqli_fetch_array($result)){
                     ?>
                     <div class="row row-item1">
                         <div class="panel">
                             <div class="panel-body">
                                 <div class="col-sm-5">
                                     <div>
-                                        <a href="<?php echo $row['vid_url'] ?>">
-                                            <img src="<?php echo $row['vid_img']; ?>" class="" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';" />
+                                        <a href="<?php echo $row['vid_url'] ?>" target="_blank">
+                                            <img src="<?php echo $row['vid_img']; ?>" class="" alt="upload/alternate.jpg" onerror="this.src='upload/image-not-found.jpg';" target="_blank" />
                                             <!-- <img src="https://drive.google.com/file/d/10lc9L34eexD6RfhffZ3hEJqP2nzWKit4/view?usp=sharing" class="" alt="upload/alternate.jpg"  /> -->
                                         </a>
                                     </div>
@@ -107,11 +109,11 @@
                         <h2 class="title">Follow Us</h2>
                     </div>
                     <div class="social_box">
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-google"></a>
-                        <a href="#" class="fa fa-linkedin"></a>
-                        <a href="#" class="fa fa-youtube"></a>
+                        <a href="https://www.facebook.com/technicalsujiteditor" class="fa fa-facebook" target="_blank"></a>
+                        <a href="https://www.instagram.com/invites/contact/?i=zxlr375unl9t&utm_content=nrq0xa2" class="fa fa-instagram" target="_blank"></a>
+                        <a href="https://t.me/TechnicalSujitBhai" class="fa fa-telegram" target="_blank"></a>
+                        <!-- <a href="#" class="fa fa-linkedin" target="_blank"></a> -->
+                        <a href="https://www.youtube.com/@TechnicalSujitReels/" class="fa fa-youtube" target="_blank"></a>
                     </div>
                     <div class="thumbnail">
                         <div class="title-wrap">
@@ -134,9 +136,10 @@
                         
                         <?php
                             $get_video_query = "SELECT * FROM t_vid_link ORDER BY id DESC LIMIT 4";
-                            //$result = mysqli_query($db, $get_video_query);
-                            $result = pg_query($db, $get_video_query);
-                            while($row = pg_fetch_assoc($result)){
+                            $result = mysqli_query($db, $get_video_query);
+                            //$result = pg_query($db, $get_video_query);
+                            //while($row = pg_fetch_assoc($result)){
+                            while($row = mysqli_fetch_array($result)){
                         ?>
                         <div class="row">     
                             <div class="col-sm-12">
