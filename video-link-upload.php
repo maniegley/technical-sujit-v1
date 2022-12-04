@@ -116,7 +116,8 @@
                 array_push($errors, "Error : Unable to make connection!\n");
             } else {
                 //echo "Opened database successfully\n";
-                $result = pg_query($db, $video);
+                //$result = pg_query($db, $video);
+                $result = mysqli_query($db, $video);
                 //$resource_result = pg_query($db, $resource_query);
                 if(!$result) {
                     array_push($errors, "Something went wrong! Please try again.");
