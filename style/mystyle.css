@@ -261,7 +261,12 @@ position: relative;
 }
 
 .fa-instagram {
-  background: #125688;
+  background: #bb0000; /*#125688;*/
+  color: white;
+}
+
+.fa-telegram {
+  background: hsl(251, 100%, 37%); /*#125688;*/
   color: white;
 }
 

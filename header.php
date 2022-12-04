@@ -18,7 +18,7 @@
                 <!-- <li class=""><a href="resources.php">Resources</a></li> -->
                 <li><a href="contact-us.php">Contact Us</a></li>
                 <li><a href="about.php">About</a></li>
-                <li><a href="#">Privacy & Policy</a></li>
+                <li><a href="privacy-policy.php">Privacy & Policy</a></li>
             </ul>
             <!-- <form class="navbar-form navbar-right" role="search">
                 <div class="form-group input-group">
