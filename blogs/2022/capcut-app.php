@@ -65,7 +65,7 @@
                                             </p>
                                             <a href="<?php echo $row['vid_media_fire_link']; ?>">
                                                 <img src="../../upload/download.png" class="" alt="../../upload/alternate.jpg" onerror="this.src='../../upload/image-not-found.jpg';" style="width:50%; height:20%"/>
-                                            </a>
+                                            </a></br>
                                             <!-- <p>
                                                 <b>Step 3:</b> Materials successfully download hone ke bad aapko hamare youtube video ko dekhna hoga. Aap niche diye gye link se us video ko dekh sakte hai.
                                                 <a href="<?php echo $row['vid_url'] ?>" class="r-link">Watch Now</a>
