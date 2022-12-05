@@ -29,7 +29,7 @@
                 <div class="col-sm-12">
                     <div class="panel text-left" style="width:300px; height:50px;">
                         <div class="panel-body">
-                            <img src="../../upload/logo1.jpeg" style="width:300px; height:90px;">
+                            <img src="../../upload/logo1.png" style="width:300px; height:90px;">
                         </div>   
                     </div>
                     
